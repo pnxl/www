@@ -1,5 +1,7 @@
 <template>
-  <header class="flex flex-row justify-between text-5xl font-semibold">
+  <header
+    class="flex flex-row justify-between md:text-5xl sm:text-4xl text-3xl font-semibold"
+  >
     <RouterLink
       to="/"
       :class="$route.fullPath === '/' ? 'italic-active opacity-100' : ''"
