@@ -1,5 +1,5 @@
 * {
-  @apply transition-all duration-[250ms] selection:bg-indigo-200/50;
+  @apply transition-all duration-[250ms] selection:bg-transparent;
   /* @apply border border-red-500; */
 }
 
