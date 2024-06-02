@@ -6,10 +6,15 @@
 ::-webkit-scrollbar {
   @apply w-1;
 }
+
 ::-webkit-scrollbar-thumb {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
   @apply bg-neutral-300 dark:bg-neutral-700 rounded-full;
 }
 
 ::-webkit-scrollbar-thumb:window-inactive {
-  @apply bg-neutral-200 dark:bg-neutral-800 rounded-full;
+  @apply bg-transparent rounded-full;
 }
