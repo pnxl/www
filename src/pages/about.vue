@@ -195,7 +195,7 @@
       </h6>
     </div>
     <div
-      class="min-h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col gap-y-16 pt-4"
+      class="min-h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col gap-y-8 pt-4"
     >
       <h6
         v-motion-slide-visible-once-bottom
@@ -223,7 +223,7 @@
       </h6>
     </div>
     <div
-      class="min-h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col gap-y-16 pt-4"
+      class="min-h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col gap-y-8 pt-4"
     >
       <h6
         v-motion-slide-visible-once-bottom
