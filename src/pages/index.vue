@@ -73,6 +73,15 @@
                 .
               </h1>
             </div>
+            <vue-writer
+              :array="['Welcome to my small corner of the web.']"
+              class="text-center text-3xl opacity-75 font-medium w-full h-fit"
+              :iterations="'1'"
+              :typeSpeed="50"
+              :delay="600000"
+              :start="1500"
+              :caret="underscore"
+            />
             <h2
               class="font-black text-[3rem] sm:text-[5rem] md:text-[6rem] opacity-60 cursor-default lg:hidden text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
             >
@@ -88,7 +97,12 @@
               >.
             </h1>
           </div>
-          <div class="relative h-full opacity-50">
+          <div
+            v-motion-fade-visible-once
+            :delay="750"
+            :duration="500"
+            class="relative h-full opacity-50"
+          >
             <marquee-text :duration="600" class="text-[2.5rem] font-semibold">
               <span
                 class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
@@ -1707,11 +1721,13 @@
 
 <script lang="ts">
 import MarqueeText from "vue-marquee-text-component";
+import { VueWriter } from "vue-writer";
 
 export default {
   name: "index",
   components: {
     MarqueeText,
+    VueWriter,
   },
   methods: {},
 };
