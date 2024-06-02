@@ -1,11 +1,10 @@
 <template>
   <div
     id="app"
-    class="min-h-screen min-w-full bg-neutral-100 text-neutral-700 dark:bg-neutral-950 dark:text-neutral-200 p-4"
+    class="bg-neutral-100 text-neutral-700 dark:bg-neutral-950 dark:text-neutral-200 p-4 pt-0 h-screen overflow-hidden"
   >
     <Header />
-    <hr class="my-4 border-neutral-500 rounded-full opacity-50" />
-    <router-view v-slot="{ Component }">
+    <router-view v-slot="{ Component }" class="mt-[6.5rem]">
       <transition name="fade" mode="out-in">
         <component :is="Component" />
       </transition>
