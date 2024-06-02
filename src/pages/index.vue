@@ -1,6 +1,6 @@
 <template>
   <main
-    class="overflow-y-scroll h-[calc(100vh-6.5rem)] -mb-4 snap-y snap-proximity"
+    class="overflow-y-scroll h-[calc(100vh-6.5rem)] -mb-4 snap-y snap-mandatory"
   >
     <div class="h-[calc(100vh-6.5rem)] snap-start snap-always relative">
       <div class="w-full relative">
@@ -1609,7 +1609,7 @@
         </svg>
       </div>
     </div>
-    <!-- <div class="h-[calc(100vh-6.5rem)] snap-start snap-always">
+    <div class="h-[calc(100vh-6.5rem)] snap-start snap-always">
       <div class="w-full relative pt-20 h-screen">
         <div class="absolute w-full top-20">
           <div
@@ -1641,7 +1641,7 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
   </main>
 </template>
 
