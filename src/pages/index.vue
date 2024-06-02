@@ -1788,7 +1788,17 @@
           ]"
           :iterations="'1'"
           :typeSpeed="100"
-          class="font-bold cursor-default uppercase overflow-x-hidden -my-6 lg:-my-12 text-[3.5rem] sm:text-[4rem] md:text-[5.5rem] lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] text-center bg-clip-text text-transparent bg-gradient-to-r animate-gradient-x from-pink-500 via-violet-500 to-sky-500 selection:bg-transparent"
+          style="
+            background-image: linear-gradient(
+              to right,
+              #ec4899,
+              #a855f7,
+              #6366f1,
+              #0ea5e9,
+              #14b8a6
+            );
+          "
+          class="font-bold cursor-default uppercase overflow-x-hidden -my-6 lg:-my-12 text-[3.5rem] sm:text-[4rem] md:text-[5.5rem] lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] text-center bg-clip-text text-transparent animate-gradient-x selection:bg-transparent"
         />
         <h2
           class="font-light cursor-default -my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
