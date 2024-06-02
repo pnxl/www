@@ -6,7 +6,7 @@
       class="min-h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col justify-end md:justify-center gap-y-4"
     >
       <h4
-        class="cursor-default -mt-16 text-[2rem] xl:text-[3rem] 2xl:text-[5rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        class="cursor-default font-medium -mt-16 text-[2rem] xl:text-[3rem] 2xl:text-[5rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         Hi, I'm Jason.
       </h4>
