@@ -1,8 +1,8 @@
 <template>
   <main
-    class="overflow-y-scroll h-[calc(100vh-6.5rem)] -mb-4 snap-y snap-mandatory"
+    class="overflow-y-scroll h-[calc(100vh-6.5rem)] -mb-4 -mr-4 pr-4 snap-y snap-mandatory"
   >
-    <div class="h-[calc(100vh-6.5rem)] snap-start snap-always relative">
+    <div class="h-[calc(100vh-5.5rem)] snap-start snap-always relative">
       <div class="w-full relative">
         <div class="absolute w-full">
           <div
@@ -1666,7 +1666,7 @@
       <div
         v-motion-slide-visible-once-bottom
         :delay="1000"
-        class="absolute z-30 w-full -mx-4 px-4 bottom-8"
+        class="absolute z-30 w-full -mx-4 px-4 bottom-12"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1682,36 +1682,158 @@
         </svg>
       </div>
     </div>
-    <div class="h-[calc(100vh-6.5rem)] snap-start snap-always">
-      <div class="w-full relative pt-20 h-screen">
-        <div class="absolute w-full top-20">
-          <div
-            class="w-full absolute z-30 mt-4 h-full flex flex-col justify-center pointer-events-none"
-          >
-            <h1
-              class="font-black hidden lg:block lg:text-[9rem] xl:text-[11rem] 2xl:text-[13rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
-            >
-              Hey, I'm
-              <span
-                class="bg-gradient-to-r dark:from-indigo-500 dark:to-fuchsia-500 from-blue-500 to-purple-500 bg-clip-text text-transparent animate-gradient-x"
-                >Jason</span
-              >.
-            </h1>
-            <h2
-              class="font-black text-[3rem] sm:text-[5rem] md:text-[6rem] opacity-60 cursor-default lg:hidden text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
-            >
-              Hey there!
-            </h2>
-            <h1
-              class="font-black text-[5rem] sm:text-[8rem] md:text-[9rem] lg:hidden text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
-            >
-              I'm
-              <span
-                class="bg-gradient-to-r dark:from-indigo-500 dark:to-fuchsia-500 from-blue-500 to-purple-500 bg-clip-text text-transparent animate-gradient-x"
-                >Jason</span
-              >.
-            </h1>
+    <div
+      class="h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col justify-center gap-y-4"
+    >
+      <h3
+        class="font-medium cursor-default -mt-16 -my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+      >
+        I mainly focus on
+      </h3>
+      <h2
+        class="font-bold -my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+      >
+        <router-link
+          to="/portfolio#design"
+          class="underline decoration-blue-500 dark:decoration-indigo-500 duration-0 hover:decoration-neutral-900 dark:hover:decoration-neutral-400 bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-900 dark:from-neutral-100 dark:to-neutral-100 hover:from-blue-500 hover:to-indigo-500 dark:hover:from-indigo-500 dark:hover:to-violet-500"
+          >design</router-link
+        ><span class="no-underline font-medium">,</span>
+      </h2>
+      <h2
+        class="font-bold -my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+      >
+        <router-link
+          to="/portfolio#technology"
+          class="underline decoration-[#7761F4] dark:decoration-[#9a59f7] duration-0 hover:decoration-neutral-900 dark:hover:decoration-neutral-400 bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-900 dark:from-neutral-100 dark:to-neutral-100 hover:from-indigo-500 hover:to-violet-500 dark:hover:from-violet-500 dark:hover:to-purple-500"
+          >technology</router-link
+        ><span class="no-underline cursor-default font-medium">,</span>
+      </h2>
+      <h2
+        class="font-bold -my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+      >
+        <span class="no-underline font-medium mr-4 cursor-default">and</span>
+        <router-link
+          to="/portfolio#music"
+          class="underline decoration-purple-500 dark:decoration-fuchsia-500 duration-0 hover:decoration-neutral-900 dark:hover:decoration-neutral-400 bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-900 dark:from-neutral-100 dark:to-neutral-100 hover:from-violet-500 hover:to-purple-500 dark:hover:from-purple-500 dark:hover:to-fuchsia-500"
+          >music</router-link
+        ><span class="no-underline cursor-default font-medium">,</span>
+      </h2>
+      <h2
+        class="font-light italic cursor-default -my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+      >
+        projects.
+      </h2>
+    </div>
+    <div
+      class="h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col justify-center gap-y-4"
+    >
+      <h4
+        class="font-light italic cursor-default -mt-16 -my-3 text-[2rem] xl:text-[3rem] 2xl:text-[5rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+      >
+        In my free time,
+      </h4>
+      <h3
+        class="font-medium cursor-default -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+      >
+        I'm learning
+      </h3>
+      <h2
+        class="font-bold -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+      >
+        <span
+          to="/portfolio#design"
+          class="underline decoration-blue-500 dark:decoration-indigo-500"
+          >guitar</span
+        ><span class="no-underline font-medium">,</span>
+      </h2>
+      <h2
+        class="font-bold -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+      >
+        <span class="underline decoration-[#0AAEDF] dark:decoration-[#2594F0]"
+          >live visuals</span
+        ><span class="no-underline cursor-default font-medium">,</span>
+      </h2>
+      <h2
+        class="font-bold -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+      >
+        <span class="no-underline font-medium mr-4 cursor-default">and</span>
+        <span class="underline decoration-teal-500 dark:decoration-cyan-500"
+          >lighting</span
+        ><span class="no-underline cursor-default font-medium">.</span>
+      </h2>
+    </div>
+    <div
+      class="h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col justify-center gap-y-16"
+    >
+      <div>
+        <h3
+          class="font-base cursor-default -mt-16 -my-4 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        >
+          Let's make
+        </h3>
+        <vue-writer
+          :array="[
+            'amazing',
+            'breathtaking',
+            'miraculous',
+            'incredible',
+            'astonishing',
+            'spectacular',
+            'marvelous',
+            'remarkable',
+            'outstanding',
+            'phenomenal',
+          ]"
+          :iterations="'1'"
+          :typeSpeed="100"
+          class="font-bold uppercase overflow-x-hidden -my-6 lg:-my-12 text-[3.5rem] sm:text-[4rem] md:text-[5.5rem] lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] text-center bg-clip-text text-transparent bg-gradient-to-r animate-gradient-x from-pink-500 via-violet-500 to-sky-500 selection:bg-transparent"
+        />
+        <h2
+          class="font-light cursor-default -my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        >
+          things <span class="italic underline font-medium">together</span>.
+        </h2>
+      </div>
+      <hr class="border-neutral-500 rounded-full opacity-50" />
+      <div
+        class="flex md:flex-row flex-col -mt-6 -mb-8 justify-between gap-y-16"
+      >
+        <div class="flex flex-col gap-y-6">
+          <p class="text-center md:text-left text-xl opacity-100 w-full h-fit">
+            If you want to work with me, or just say hello,
+          </p>
+          <div class="flex flex-col gap-y-2">
+            <p class="text-center md:text-left text-lg opacity-50 w-full h-fit">
+              Drop me a DM at
+            </p>
+            <div class="w-full flex justify-center md:justify-start flex-row">
+              <a
+                href="https://www.instagram.com/poonxal"
+                class="text-center text-4xl opacity-100 font-medium underline hover:decoration-blue-500 dark:hover:decoration-indigo-500"
+                >@poonxal</a
+              >
+            </div>
           </div>
+          <div class="flex flex-col gap-y-2">
+            <p class="text-center md:text-left text-lg opacity-50 w-full h-fit">
+              Or send me an e-mail on
+            </p>
+            <div class="w-full flex justify-center md:justify-start flex-row">
+              <a
+                href="mailto:jason@pnxl.dev"
+                class="text-center text-4xl opacity-100 font-medium underline hover:decoration-blue-500 dark:hover:decoration-indigo-500"
+                >jason@pnxl.dev</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col mt-auto">
+          <p class="text-center md:text-right opacity-50 w-full h-fit">
+            Copyright © Jason Fang
+          </p>
+          <p class="text-center md:text-right opacity-50 w-full h-fit">
+            (2024), All Rights Reserved
+          </p>
         </div>
       </div>
     </div>
@@ -1729,7 +1851,6 @@ export default {
     MarqueeText,
     VueWriter,
   },
-  methods: {},
 };
 </script>
 
