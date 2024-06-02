@@ -80,7 +80,6 @@
               :typeSpeed="50"
               :delay="600000"
               :start="1500"
-              :caret="underscore"
             />
             <h2
               class="font-black text-[3rem] sm:text-[5rem] md:text-[6rem] opacity-60 cursor-default lg:hidden text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
