@@ -1742,14 +1742,15 @@
       >
         <span
           to="/portfolio#design"
-          class="underline decoration-blue-500 dark:decoration-indigo-500"
+          class="underline decoration-blue-500 dark:decoration-indigo-500 cursor-default"
           >guitar</span
         ><span class="no-underline font-medium">,</span>
       </h2>
       <h2
         class="font-bold -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
-        <span class="underline decoration-[#0AAEDF] dark:decoration-[#2594F0]"
+        <span
+          class="underline decoration-[#0AAEDF] dark:decoration-[#2594F0] cursor-default"
           >live visuals</span
         ><span class="no-underline cursor-default font-medium">,</span>
       </h2>
@@ -1757,7 +1758,8 @@
         class="font-bold -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         <span class="no-underline font-medium mr-4 cursor-default">and</span>
-        <span class="underline decoration-teal-500 dark:decoration-cyan-500"
+        <span
+          class="underline decoration-teal-500 dark:decoration-cyan-500 cursor-default"
           >lighting</span
         ><span class="no-underline cursor-default font-medium">.</span>
       </h2>
@@ -1786,7 +1788,7 @@
           ]"
           :iterations="'1'"
           :typeSpeed="100"
-          class="font-bold uppercase overflow-x-hidden -my-6 lg:-my-12 text-[3.5rem] sm:text-[4rem] md:text-[5.5rem] lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] text-center bg-clip-text text-transparent bg-gradient-to-r animate-gradient-x from-pink-500 via-violet-500 to-sky-500 selection:bg-transparent"
+          class="font-bold cursor-default uppercase overflow-x-hidden -my-6 lg:-my-12 text-[3.5rem] sm:text-[4rem] md:text-[5.5rem] lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] text-center bg-clip-text text-transparent bg-gradient-to-r animate-gradient-x from-pink-500 via-violet-500 to-sky-500 selection:bg-transparent"
         />
         <h2
           class="font-light cursor-default -my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
@@ -1799,14 +1801,20 @@
         class="flex md:flex-row flex-col -mt-6 -mb-8 justify-between gap-y-16"
       >
         <div class="flex flex-col gap-y-6">
-          <p class="text-center md:text-left text-xl opacity-100 w-full h-fit">
+          <p
+            class="text-center md:text-left text-xl opacity-100 w-full h-fit cursor-default"
+          >
             If you want to work with me, or just say hello,
           </p>
           <div class="flex flex-col gap-y-2">
-            <p class="text-center md:text-left text-lg opacity-50 w-full h-fit">
+            <p
+              class="text-center md:text-left text-lg opacity-50 w-full h-fit cursor-default"
+            >
               Drop me a DM at
             </p>
-            <div class="w-full flex justify-center md:justify-start flex-row">
+            <div
+              class="w-full flex justify-center md:justify-start flex-row cursor-default"
+            >
               <a
                 href="https://www.instagram.com/poonxal"
                 class="text-center text-4xl opacity-100 font-medium underline hover:decoration-blue-500 dark:hover:decoration-indigo-500"
@@ -1815,10 +1823,14 @@
             </div>
           </div>
           <div class="flex flex-col gap-y-2">
-            <p class="text-center md:text-left text-lg opacity-50 w-full h-fit">
+            <p
+              class="text-center md:text-left text-lg opacity-50 w-full h-fit cursor-default"
+            >
               Or send me an e-mail on
             </p>
-            <div class="w-full flex justify-center md:justify-start flex-row">
+            <div
+              class="w-full flex justify-center md:justify-start flex-row cursor-default"
+            >
               <a
                 href="mailto:jason@pnxl.dev"
                 class="text-center text-4xl opacity-100 font-medium underline hover:decoration-blue-500 dark:hover:decoration-indigo-500"
@@ -1828,10 +1840,14 @@
           </div>
         </div>
         <div class="flex flex-col mt-auto">
-          <p class="text-center md:text-right opacity-50 w-full h-fit">
+          <p
+            class="text-center md:text-right opacity-50 w-full h-fit cursor-default"
+          >
             Copyright © Jason Fang
           </p>
-          <p class="text-center md:text-right opacity-50 w-full h-fit">
+          <p
+            class="text-center md:text-right opacity-50 w-full h-fit cursor-default"
+          >
             (2024), All Rights Reserved
           </p>
         </div>
