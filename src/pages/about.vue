@@ -288,8 +288,7 @@
 
       <div
         v-motion-slide-visible-once-bottom
-        :delay="1000"
-        class="absolute z-30 w-full -mx-4 px-4 bottom-12"
+        class="absolute z-30 left-auto right-auto w-full bottom-12"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
