@@ -62,7 +62,17 @@
                 v-motion-slide-visible-once-bottom
                 :delay="750"
                 :duration="125"
-                class="bg-gradient-to-r dark:from-indigo-500 dark:to-fuchsia-500 from-blue-500 to-purple-500 bg-clip-text text-transparent animate-gradient-x"
+                style="
+                  background-image: linear-gradient(
+                    to right,
+                    #ec4899,
+                    #a855f7,
+                    #6366f1,
+                    #0ea5e9,
+                    #14b8a6
+                  );
+                "
+                class="bg-clip-text text-transparent animate-gradient-x"
                 >Jason</span
               >
               <h1
