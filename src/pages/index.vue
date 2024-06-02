@@ -8,17 +8,73 @@
           <div
             class="w-full absolute z-30 mt-4 h-full flex flex-col justify-center pointer-events-none"
           >
-            <h1
-              class="font-black hidden cursor-default lg:block lg:text-[9rem] xl:text-[11rem] 2xl:text-[13rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+            <div
+              class="flex-row w-full justify-center font-black hidden cursor-default lg:flex lg:text-[9rem] xl:text-[11rem] 2xl:text-[13rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
             >
-              Hey, I'm
+              <h1 v-motion-slide-visible-once-bottom :delay="0" :duration="125">
+                H
+              </h1>
+              <h1
+                v-motion-slide-visible-once-bottom
+                :delay="62.5"
+                :duration="125"
+              >
+                e
+              </h1>
+              <h1
+                v-motion-slide-visible-once-bottom
+                :delay="125"
+                :duration="125"
+              >
+                y
+              </h1>
+              <h1
+                v-motion-slide-visible-once-bottom
+                :delay="187.5"
+                :duration="125"
+                class="-ml-5 mr-8"
+              >
+                ,
+              </h1>
+              <h1
+                v-motion-slide-visible-once-bottom
+                :delay="500"
+                :duration="125"
+              >
+                I
+              </h1>
+              <h1
+                v-motion-slide-visible-once-bottom
+                :delay="562.5"
+                :duration="125"
+              >
+                '
+              </h1>
+              <h1
+                v-motion-slide-visible-once-bottom
+                :delay="625"
+                :duration="125"
+                class="mr-8"
+              >
+                m
+              </h1>
               <span
+                v-motion-slide-visible-once-bottom
+                :delay="937.5"
+                :duration="125"
                 class="bg-gradient-to-r dark:from-indigo-500 dark:to-fuchsia-500 from-blue-500 to-purple-500 bg-clip-text text-transparent animate-gradient-x"
                 >Jason</span
-              >.
-            </h1>
+              >
+              <h1
+                v-motion-slide-visible-once-bottom
+                :delay="1062.5"
+                :duration="125"
+              >
+                .
+              </h1>
+            </div>
             <h2
-              class="font-black cursor-default text-[3rem] sm:text-[5rem] md:text-[6rem] opacity-60 cursor-default lg:hidden text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+              class="font-black text-[3rem] sm:text-[5rem] md:text-[6rem] opacity-60 cursor-default lg:hidden text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
             >
               Hey there!
             </h2>
@@ -1647,14 +1703,13 @@
 
 <script lang="ts">
 import MarqueeText from "vue-marquee-text-component";
-// @ts-ignore
-import VueScrollSnap from "vue-scroll-snap";
 
 export default {
   name: "index",
   components: {
     MarqueeText,
   },
+  methods: {},
 };
 </script>
 
@@ -1662,8 +1717,4 @@ export default {
 .scroll-snap-container {
   height: 100vh;
 }
-
-/* * {
-  @apply border border-red-500;
-} */
 </style>
