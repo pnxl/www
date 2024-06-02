@@ -60,14 +60,14 @@
               </h1>
               <span
                 v-motion-slide-visible-once-bottom
-                :delay="937.5"
+                :delay="750"
                 :duration="125"
                 class="bg-gradient-to-r dark:from-indigo-500 dark:to-fuchsia-500 from-blue-500 to-purple-500 bg-clip-text text-transparent animate-gradient-x"
                 >Jason</span
               >
               <h1
                 v-motion-slide-visible-once-bottom
-                :delay="1062.5"
+                :delay="812.5"
                 :duration="125"
               >
                 .

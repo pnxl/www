@@ -1,5 +1,18 @@
 <template>
   <div
+    v-motion
+    :initial="{ opacity: 0, y: -100 }"
+    :enter="{
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 750,
+        type: 'keyframes',
+        ease: 'easeOut',
+      },
+    }"
+    :delay="750"
+    :duration="750"
     class="absolute w-full -mx-4 px-4 pt-4 z-50 bg-neutral-100/65 dark:bg-neutral-950/85 backdrop-blur-xl"
   >
     <header
