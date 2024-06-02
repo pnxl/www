@@ -30,12 +30,12 @@
               class="absolute top-auto bottom-auto left-auto right-auto w-full h-full flex flex-col justify-center"
             >
               <h1
-                class="text-center text-5xl md:text-6xl font-semibold cursor-default"
+                class="text-center text-4xl sm:text-5xl md:text-6xl font-semibold cursor-default"
               >
                 "Manuk Dadali"
               </h1>
               <h1
-                class="text-center text-4xl md:text-5xl font-semibold opacity-75 mt-2 cursor-default"
+                class="text-center text-3xl sm:text-4xl md:text-5xl font-semibold opacity-75 mt-2 cursor-default"
               >
                 I Love Indonesia
               </h1>
@@ -99,12 +99,12 @@
               class="absolute top-auto bottom-auto left-auto right-auto w-full h-full flex flex-col justify-center"
             >
               <h1
-                class="text-center text-5xl md:text-6xl font-semibold cursor-default"
+                class="text-center text-4xl sm:text-5xl md:text-6xl font-semibold cursor-default"
               >
                 DABIN - Drown
               </h1>
               <h1
-                class="text-center text-4xl md:text-5xl font-semibold opacity-75 mt-2 cursor-default"
+                class="text-center text-3xl sm:text-4xl md:text-5xl font-semibold opacity-75 mt-2 cursor-default"
               >
                 Friendship Day 2021 (Music Cover Competition)
               </h1>
@@ -166,12 +166,12 @@
               class="absolute top-auto bottom-auto left-auto right-auto w-full h-full flex flex-col justify-center"
             >
               <h1
-                class="text-center text-5xl md:text-6xl font-semibold cursor-default"
+                class="text-center text-4xl sm:text-5xl md:text-6xl font-semibold cursor-default"
               >
                 "What A Beautiful Name It Is"
               </h1>
               <h1
-                class="text-center text-4xl md:text-5xl font-semibold opacity-75 mt-2 cursor-default"
+                class="text-center text-3xl sm:text-4xl md:text-5xl font-semibold opacity-75 mt-2 cursor-default"
               >
                 Easter Music Competition
               </h1>
@@ -233,7 +233,7 @@
               class="absolute top-auto bottom-auto left-auto right-auto w-full h-full flex flex-col justify-center"
             >
               <h1
-                class="text-center text-5xl md:text-6xl font-semibold cursor-default"
+                class="text-center text-4xl sm:text-5xl md:text-6xl font-semibold cursor-default"
               >
                 8G's First Chapel
               </h1>
@@ -299,12 +299,12 @@
               class="absolute top-auto bottom-auto left-auto right-auto w-full h-full flex flex-col justify-center"
             >
               <h1
-                class="text-center text-5xl md:text-6xl font-semibold cursor-default"
+                class="text-center text-4xl sm:text-5xl md:text-6xl font-semibold cursor-default"
               >
                 Moana
               </h1>
               <h1
-                class="text-center text-4xl md:text-5xl font-semibold opacity-75 mt-2 cursor-default"
+                class="text-center text-3xl sm:text-4xl md:text-5xl font-semibold opacity-75 mt-2 cursor-default"
               >
                 DH Look Alike
               </h1>
@@ -357,7 +357,7 @@
               class="absolute top-auto bottom-auto left-auto right-auto w-full h-full flex flex-col justify-center"
             >
               <h1
-                class="text-center text-5xl md:text-6xl font-semibold cursor-default"
+                class="text-center text-4xl sm:text-5xl md:text-6xl font-semibold cursor-default"
               >
                 8G's Second Chapel
               </h1>
@@ -409,7 +409,7 @@
               class="absolute top-auto bottom-auto left-auto right-auto w-full h-full flex flex-col justify-center"
             >
               <h1
-                class="text-center text-5xl md:text-6xl font-semibold cursor-default"
+                class="text-center text-4xl sm:text-5xl md:text-6xl font-semibold cursor-default"
               >
                 Cross-class Final Chapel
               </h1>
@@ -457,7 +457,7 @@
               class="absolute top-auto bottom-auto left-auto right-auto w-full h-full flex flex-col justify-center"
             >
               <h1
-                class="text-center text-5xl md:text-6xl font-semibold cursor-default"
+                class="text-center text-4xl sm:text-5xl md:text-6xl font-semibold cursor-default"
               >
                 9A's First Chapel
               </h1>
@@ -507,12 +507,12 @@
               class="absolute top-auto bottom-auto left-auto right-auto w-full h-full flex flex-col justify-center"
             >
               <h1
-                class="text-center text-5xl md:text-6xl font-semibold cursor-default"
+                class="text-center text-4xl sm:text-5xl md:text-6xl font-semibold cursor-default"
               >
                 Ecstasy LIVE
               </h1>
               <h1
-                class="text-center text-4xl md:text-5xl font-semibold opacity-75 mt-2 cursor-default"
+                class="text-center text-3xl sm:text-4xl md:text-5xl font-semibold opacity-75 mt-2 cursor-default"
               >
                 Blue Feather V
               </h1>
@@ -582,12 +582,12 @@
               class="absolute top-auto bottom-auto left-auto right-auto w-full h-full flex flex-col justify-center"
             >
               <h1
-                class="text-center text-5xl md:text-6xl font-semibold cursor-default"
+                class="text-center text-4xl sm:text-5xl md:text-6xl font-semibold cursor-default"
               >
                 Christmas Carol
               </h1>
               <h1
-                class="text-center text-4xl md:text-5xl font-semibold opacity-75 mt-2 cursor-default"
+                class="text-center text-3xl sm:text-4xl md:text-5xl font-semibold opacity-75 mt-2 cursor-default"
               >
                 with Sekolah Dian Harapan
               </h1>
@@ -646,12 +646,12 @@
               class="absolute top-auto bottom-auto left-auto right-auto w-full h-full flex flex-col justify-center"
             >
               <h1
-                class="text-center text-5xl md:text-6xl font-semibold cursor-default"
+                class="text-center text-4xl sm:text-5xl md:text-6xl font-semibold cursor-default"
               >
                 ECSTASY Live
               </h1>
               <h1
-                class="text-center text-4xl md:text-5xl font-semibold opacity-75 mt-2 cursor-default"
+                class="text-center text-3xl sm:text-4xl md:text-5xl font-semibold opacity-75 mt-2 cursor-default"
               >
                 JNY Cup
               </h1>
@@ -704,12 +704,12 @@
               class="absolute top-auto bottom-auto left-auto right-auto w-full h-full flex flex-col justify-center"
             >
               <h1
-                class="text-center text-5xl md:text-6xl font-semibold cursor-default"
+                class="text-center text-4xl sm:text-5xl md:text-6xl font-semibold cursor-default"
               >
                 "Devoted To Christ"
               </h1>
               <h1
-                class="text-center text-4xl md:text-5xl font-semibold opacity-75 mt-2 cursor-default"
+                class="text-center text-3xl sm:text-4xl md:text-5xl font-semibold opacity-75 mt-2 cursor-default"
               >
                 Music Concert
               </h1>
