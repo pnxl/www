@@ -1720,6 +1720,7 @@
 
 <script lang="ts">
 import MarqueeText from "vue-marquee-text-component";
+// @ts-ignore
 import { VueWriter } from "vue-writer";
 
 export default {
