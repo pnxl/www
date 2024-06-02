@@ -1650,7 +1650,11 @@
         </div>
       </div>
 
-      <div class="absolute z-30 w-full -mx-4 px-4 bottom-8">
+      <div
+        v-motion-slide-visible-once-bottom
+        :delay="1000"
+        class="absolute z-30 w-full -mx-4 px-4 bottom-8"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="18"
