@@ -3,7 +3,7 @@
     class="overflow-y-scroll h-[calc(100vh-6.5rem)] -mb-4 -mr-4 pr-4 snap-y snap-mandatory"
   >
     <div
-      class="h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col justify-center gap-y-4"
+      class="min-h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col justify-end md:justify-center gap-y-4"
     >
       <h4
         class="cursor-default -mt-16 text-[2rem] xl:text-[3rem] 2xl:text-[5rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
@@ -20,7 +20,7 @@
           v-motion-fade-visible-once
           :delay="0"
           :duration="125"
-          class="rounded-full text-3xl font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
+          class="rounded-full text-xl md:text-3xl text-center font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
         >
           15-year-old
         </div>
@@ -28,7 +28,7 @@
           v-motion-fade-visible-once
           :delay="125"
           :duration="125"
-          class="rounded-full text-3xl font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
+          class="rounded-full text-xl md:text-3xl text-center font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
         >
           Saggitarius
         </div>
@@ -36,7 +36,7 @@
           v-motion-fade-visible-once
           :delay="250"
           :duration="125"
-          class="rounded-full text-3xl font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
+          class="rounded-full text-xl md:text-3xl text-center font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
         >
           Student
         </div>
@@ -44,7 +44,7 @@
           v-motion-fade-visible-once
           :delay="375"
           :duration="125"
-          class="rounded-full text-3xl font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
+          class="rounded-full text-xl md:text-3xl text-center font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
         >
           Indonesian
         </div>
@@ -52,7 +52,7 @@
           v-motion-fade-visible-once
           :delay="500"
           :duration="125"
-          class="rounded-full text-3xl font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
+          class="rounded-full text-xl md:text-3xl text-center font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
         >
           Live Music Enthusiast
         </div>
@@ -60,7 +60,7 @@
           v-motion-fade-visible-once
           :delay="625"
           :duration="125"
-          class="rounded-full text-3xl font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
+          class="rounded-full text-xl md:text-3xl text-center font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
         >
           Content Creator
         </div>
@@ -68,14 +68,14 @@
           v-motion-fade-visible-once
           :delay="750"
           :duration="125"
-          class="rounded-full text-3xl font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
+          class="rounded-full text-xl md:text-3xl text-center font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
         >
           Dreamer ✨
         </div>
       </div>
     </div>
     <div
-      class="h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col justify-center gap-y-4"
+      class="min-h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col justify-end md:justify-center gap-y-4"
     >
       <h5
         class="font-light italic cursor-default mt-8 text-[2rem] 2xl:text-[3rem] text-center text-neutral-900 dark:text-neutral-100 opacity-50 selection:bg-transparent"
@@ -92,7 +92,7 @@
           v-motion-fade-visible-once
           :delay="0"
           :duration="125"
-          class="rounded-full text-3xl font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
+          class="rounded-full text-xl md:text-3xl text-center font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
         >
           System Administration
         </div>
@@ -100,7 +100,7 @@
           v-motion-fade-visible-once
           :delay="125"
           :duration="125"
-          class="rounded-full text-3xl font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
+          class="rounded-full text-xl md:text-3xl text-center font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
         >
           Software Development
         </div>
@@ -108,7 +108,7 @@
           v-motion-fade-visible-once
           :delay="250"
           :duration="125"
-          class="rounded-full text-3xl font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
+          class="rounded-full text-xl md:text-3xl text-center font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
         >
           Design UI/UX
         </div>
@@ -116,7 +116,7 @@
           v-motion-fade-visible-once
           :delay="375"
           :duration="125"
-          class="rounded-full text-3xl font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
+          class="rounded-full text-xl md:text-3xl text-center font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
         >
           Play Keyboard
         </div>
@@ -124,7 +124,7 @@
           v-motion-fade-visible-once
           :delay="500"
           :duration="125"
-          class="rounded-full text-3xl font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
+          class="rounded-full text-xl md:text-3xl text-center font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
         >
           Play Drums
         </div>
@@ -132,7 +132,7 @@
           v-motion-fade-visible-once
           :delay="625"
           :duration="125"
-          class="rounded-full text-3xl font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
+          class="rounded-full text-xl md:text-3xl text-center font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
         >
           Being a Guitar Stand
         </div>
@@ -140,7 +140,7 @@
           v-motion-fade-visible-once
           :delay="750"
           :duration="125"
-          class="rounded-full text-3xl font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
+          class="rounded-full text-xl md:text-3xl text-center font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
         >
           Setting up Instruments
         </div>
@@ -148,7 +148,7 @@
           v-motion-fade-visible-once
           :delay="875"
           :duration="125"
-          class="rounded-full text-3xl font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
+          class="rounded-full text-xl md:text-3xl text-center font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
         >
           Arrange Playback
         </div>
@@ -156,7 +156,7 @@
           v-motion-fade-visible-once
           :delay="1000"
           :duration="125"
-          class="rounded-full text-3xl font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
+          class="rounded-full text-xl md:text-3xl text-center font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
         >
           Mix Sound
         </div>
@@ -164,7 +164,7 @@
           v-motion-fade-visible-once
           :delay="1125"
           :duration="125"
-          class="rounded-full text-3xl font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
+          class="rounded-full text-xl md:text-3xl text-center font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
         >
           Manage Stages
         </div>
@@ -172,7 +172,7 @@
           v-motion-fade-visible-once
           :delay="1250"
           :duration="125"
-          class="rounded-full text-3xl font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
+          class="rounded-full text-xl md:text-3xl text-center font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
         >
           Design Lightshows
         </div>
@@ -180,7 +180,7 @@
           v-motion-fade-visible-once
           :delay="1375"
           :duration="125"
-          class="rounded-full text-3xl font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
+          class="rounded-full text-xl md:text-3xl text-center font-medium border dark:border-neutral-600 py-4 px-10 cursor-default hover:dark:border-neutral-400"
         >
           Design Live Visuals
         </div>
@@ -195,12 +195,12 @@
       </h6>
     </div>
     <div
-      class="h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col gap-y-16 pt-4"
+      class="min-h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col gap-y-16 pt-4"
     >
       <h6
         v-motion-slide-visible-once-bottom
         :delay="0"
-        class="font-medium cursor-default text-5xl w-2/3 text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        class="font-medium cursor-default text-3xl md:text-4xl lg:text-5xl md:w-2/3 text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         I'm Jason, a 15-year-old guy based in Indonesia, who loves to do a lot
         of things; ranging from visuals, computers, and sound.
@@ -208,7 +208,7 @@
       <h6
         v-motion-slide-visible-once-bottom
         :delay="250"
-        class="font-medium cursor-default text-5xl w-2/3 text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        class="font-medium cursor-default text-3xl md:text-4xl lg:text-5xl md:w-2/3 text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         Most of the skills I have stems from my enjoyment over a broader topic
         that includes that skill.
@@ -216,19 +216,19 @@
       <h6
         v-motion-slide-visible-once-bottom
         :delay="500"
-        class="font-medium cursor-default text-5xl w-2/3 text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        class="font-medium cursor-default text-3xl md:text-4xl lg:text-5xl md:w-2/3 text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         I learned to code over my love of computers; and I learned how to mix
         sound because I've always loved live sound scenarios.
       </h6>
     </div>
     <div
-      class="h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col gap-y-16 pt-4"
+      class="min-h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col gap-y-16 pt-4"
     >
       <h6
         v-motion-slide-visible-once-bottom
         :delay="0"
-        class="font-medium cursor-default text-5xl w-2/3 text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        class="font-medium cursor-default text-3xl md:text-4xl lg:text-5xl md:w-2/3 text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         Of course, being a 15-year-old boy, I've still got lots of exciting
         things to learn about in this life.
@@ -236,7 +236,7 @@
       <h6
         v-motion-slide-visible-once-bottom
         :delay="250"
-        class="font-medium cursor-default text-5xl w-2/3 text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        class="font-medium cursor-default text-3xl md:text-4xl lg:text-5xl md:w-2/3 text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         I love to share what I can do with my skills, and I try to volunteer in
         as much activities as I can. I'm always glad to help my clients, and I
