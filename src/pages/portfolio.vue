@@ -776,7 +776,7 @@
     >
       <div>
         <h3
-          class="font-base cursor-default -mt-16 -my-4 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+          class="font-base cursor-default -mt-16 -my-4 text-[2.5rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
         >
           Let's make
         </h3>
@@ -805,10 +805,10 @@
               #14b8a6
             );
           "
-          class="font-bold cursor-default uppercase overflow-x-hidden -my-6 lg:-my-12 text-[3.5rem] sm:text-[4rem] md:text-[5.5rem] lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] text-center bg-clip-text text-transparent animate-gradient-x selection:bg-transparent"
+          class="font-bold cursor-default uppercase overflow-x-hidden -my-4 lg:-my-12 text-[2.75rem] sm:text-[4rem] md:text-[5.5rem] lg:text-[6rem] xl:text-[9rem] 2xl:text-[11rem] text-center bg-clip-text text-transparent animate-gradient-x selection:bg-transparent"
         />
         <h2
-          class="font-light cursor-default -my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+          class="font-light cursor-default -my-4 md:-my-5 lg:-my-7 text-[2.5rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
         >
           things <span class="italic underline font-medium">together</span>.
         </h2>
@@ -816,6 +816,7 @@
 
       <div
         v-motion-slide-visible-once-bottom
+        :delay="250"
         class="absolute z-30 left-auto right-auto w-full bottom-12"
       >
         <svg
