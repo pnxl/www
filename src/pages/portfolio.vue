@@ -540,10 +540,6 @@
                 />
                 <img src="../assets/portfolio/09/header.png" class="h-24" />
                 <img
-                  src="../assets/portfolio/09/IMG-20231023-WA0034.jpg"
-                  class="h-24"
-                />
-                <img
                   src="../assets/portfolio/09/IMG-20231023-WA0040.jpg"
                   class="h-24"
                 />
