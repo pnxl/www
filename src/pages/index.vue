@@ -83,14 +83,6 @@
                 .
               </h1>
             </div>
-            <vue-writer
-              :array="['Welcome to my small corner of the web.']"
-              class="text-center text-3xl opacity-75 font-medium w-full h-fit"
-              :iterations="'1'"
-              :typeSpeed="50"
-              :delay="600000"
-              :start="1500"
-            />
             <h2
               class="font-black text-[3rem] sm:text-[5rem] md:text-[6rem] opacity-60 cursor-default lg:hidden text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
             >
@@ -105,6 +97,14 @@
                 >Jason</span
               >.
             </h1>
+            <vue-writer
+              :array="['Welcome to my small corner of the web.']"
+              class="text-center text-3xl opacity-75 font-medium w-full h-fit"
+              :iterations="'1'"
+              :typeSpeed="50"
+              :delay="600000"
+              :start="1500"
+            />
           </div>
           <div
             v-motion-fade-visible-once
@@ -1696,12 +1696,12 @@
       class="h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col justify-center gap-y-4"
     >
       <h3
-        class="font-medium cursor-default -mt-16 -my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        class="font-medium cursor-default -mt-16 -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         I mainly focus on
       </h3>
       <h2
-        class="font-bold -my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        class="font-bold -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         <router-link
           to="/portfolio#design"
@@ -1710,7 +1710,7 @@
         ><span class="no-underline font-medium">,</span>
       </h2>
       <h2
-        class="font-bold -my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        class="font-bold -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         <router-link
           to="/portfolio#technology"
@@ -1719,7 +1719,7 @@
         ><span class="no-underline cursor-default font-medium">,</span>
       </h2>
       <h2
-        class="font-bold -my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        class="font-bold -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         <span class="no-underline font-medium mr-4 cursor-default">and</span>
         <router-link
@@ -1729,7 +1729,7 @@
         ><span class="no-underline cursor-default font-medium">,</span>
       </h2>
       <h2
-        class="font-light italic cursor-default -my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        class="font-light italic cursor-default -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         projects.
       </h2>
@@ -1743,12 +1743,12 @@
         In my free time,
       </h4>
       <h3
-        class="font-medium cursor-default -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        class="font-medium cursor-default -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         I'm learning
       </h3>
       <h2
-        class="font-bold -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        class="font-bold -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         <span
           to="/portfolio#design"
@@ -1757,7 +1757,7 @@
         ><span class="no-underline font-medium">,</span>
       </h2>
       <h2
-        class="font-bold -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        class="font-bold -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         <span
           class="underline decoration-[#0AAEDF] dark:decoration-[#2594F0] cursor-default"
@@ -1765,7 +1765,7 @@
         ><span class="no-underline cursor-default font-medium">,</span>
       </h2>
       <h2
-        class="font-bold -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        class="font-bold -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         <span class="no-underline font-medium mr-4 cursor-default">and</span>
         <span
@@ -1779,7 +1779,7 @@
     >
       <div>
         <h3
-          class="font-base cursor-default -mt-16 -my-4 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+          class="font-base cursor-default -mt-16 -my-4 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
         >
           Let's make
         </h3>
@@ -1808,10 +1808,10 @@
               #14b8a6
             );
           "
-          class="font-bold cursor-default uppercase overflow-x-hidden -my-6 lg:-my-12 text-[3.5rem] sm:text-[4rem] md:text-[5.5rem] lg:text-[8rem] xl:text-[10rem] 2xl:text-[12rem] text-center bg-clip-text text-transparent animate-gradient-x selection:bg-transparent"
+          class="font-bold cursor-default uppercase overflow-x-hidden -my-6 lg:-my-12 text-[3.5rem] sm:text-[4rem] md:text-[5.5rem] lg:text-[6rem] xl:text-[9rem] 2xl:text-[11rem] text-center bg-clip-text text-transparent animate-gradient-x selection:bg-transparent"
         />
         <h2
-          class="font-light cursor-default -my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] 2xl:text-[8rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+          class="font-light cursor-default -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
         >
           things <span class="italic underline font-medium">together</span>.
         </h2>
