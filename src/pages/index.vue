@@ -1765,7 +1765,7 @@
       </h2>
     </div>
     <div
-      class="h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col justify-center gap-y-16"
+      class="relative h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col justify-center gap-y-16"
     >
       <div>
         <h3
@@ -1796,25 +1796,43 @@
           things <span class="italic underline font-medium">together</span>.
         </h2>
       </div>
-      <hr class="border-neutral-500 rounded-full opacity-50" />
+
       <div
-        class="flex md:flex-row flex-col -mt-6 -mb-8 justify-between gap-y-16"
+        v-motion-slide-visible-once-bottom
+        :delay="1000"
+        class="absolute z-30 w-full -mx-4 px-4 bottom-12"
       >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="24"
+          viewBox="0 0 384 512"
+          class="mx-auto mt-12 md:mt-32 animate-bounce-b opacity-50"
+        >
+          <path
+            fill="currentColor"
+            d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8V64c0-17.7-14.3-32-32-32s-32 14.3-32 32v306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      class="h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col justify-center gap-y-16"
+    >
+      <div class="flex flex-col -mt-6 -mb-8 gap-y-32">
         <div class="flex flex-col gap-y-6">
           <p
-            class="text-center md:text-left text-xl opacity-100 w-full h-fit cursor-default"
+            class="text-center text-xl opacity-100 w-full h-fit cursor-default"
           >
             If you want to work with me, or just say hello,
           </p>
           <div class="flex flex-col gap-y-2">
             <p
-              class="text-center md:text-left text-lg opacity-50 w-full h-fit cursor-default"
+              class="text-center text-lg opacity-50 w-full h-fit cursor-default"
             >
               Drop me a DM at
             </p>
-            <div
-              class="w-full flex justify-center md:justify-start flex-row cursor-default"
-            >
+            <div class="w-full flex justify-center flex-row cursor-default">
               <a
                 href="https://www.instagram.com/poonxal"
                 class="text-center text-4xl opacity-100 font-medium underline hover:decoration-blue-500 dark:hover:decoration-indigo-500"
@@ -1824,13 +1842,11 @@
           </div>
           <div class="flex flex-col gap-y-2">
             <p
-              class="text-center md:text-left text-lg opacity-50 w-full h-fit cursor-default"
+              class="text-center text-lg opacity-50 w-full h-fit cursor-default"
             >
               Or send me an e-mail on
             </p>
-            <div
-              class="w-full flex justify-center md:justify-start flex-row cursor-default"
-            >
+            <div class="w-full flex justify-center flex-row cursor-default">
               <a
                 href="mailto:jason@pnxl.dev"
                 class="text-center text-4xl opacity-100 font-medium underline hover:decoration-blue-500 dark:hover:decoration-indigo-500"
@@ -1840,14 +1856,10 @@
           </div>
         </div>
         <div class="flex flex-col mt-auto">
-          <p
-            class="text-center md:text-right opacity-50 w-full h-fit cursor-default"
-          >
+          <p class="text-center opacity-50 w-full h-fit cursor-default">
             Copyright © Jason Fang
           </p>
-          <p
-            class="text-center md:text-right opacity-50 w-full h-fit cursor-default"
-          >
+          <p class="text-center opacity-50 w-full h-fit cursor-default">
             (2024), All Rights Reserved
           </p>
         </div>
