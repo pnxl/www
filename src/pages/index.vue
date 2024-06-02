@@ -1855,7 +1855,7 @@
             <div class="w-full flex justify-center flex-row cursor-default">
               <a
                 href="https://www.instagram.com/poonxal"
-                class="text-center text-4xl opacity-100 font-medium underline hover:decoration-blue-500 dark:hover:decoration-indigo-500"
+                class="text-center text-4xl opacity-100 font-medium underline hover:decoration-pink-500"
                 >@poonxal</a
               >
             </div>
@@ -1869,7 +1869,7 @@
             <div class="w-full flex justify-center flex-row cursor-default">
               <a
                 href="mailto:jason@pnxl.dev"
-                class="text-center text-4xl opacity-100 font-medium underline hover:decoration-purple-500 dark:hover:decoration-fuchsia-500"
+                class="text-center text-4xl opacity-100 font-medium underline hover:decoration-teal-500"
                 >jason@pnxl.dev</a
               >
             </div>
