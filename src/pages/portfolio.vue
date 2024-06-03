@@ -1,24 +1,17 @@
 <template>
   <main
-    class="overflow-y-scroll h-[calc(100vh-6.5rem)] -mb-4 -mr-4 pr-4 snap-y snap-mandatory"
+    class="overflow-y-scroll h-screen -mb-4 -mr-4 pr-4 snap-y snap-proximity"
   >
-    <div
-      class="min-h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col gap-y-8"
-    >
+    <div class="min-h-screen snap-start snap-always flex flex-col gap-y-8">
       <h3
         v-motion-slide-visible-once-bottom
         :delay="0"
         :duration="125"
-        class="font-medium mt-4 cursor-default text-[3rem] lg:text-[4rem] xl:text-[5rem] 2xl:text-[6rem] text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        class="font-medium mt-24 cursor-default text-[3rem] lg:text-[4rem] xl:text-[5rem] 2xl:text-[6rem] text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         Portfolio
       </h3>
-      <hr
-        v-motion-slide-visible-once-bottom
-        :delay="0"
-        :duration="125"
-        class="rounded-full opacity-50 my-0"
-      />
+      <hr :delay="0" :duration="125" class="rounded-full opacity-50 my-0" />
       <div class="flex flex-col-reverse gap-y-8">
         <div
           class="gap-y-8 flex flex-col"
@@ -69,12 +62,12 @@
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">01</p>
             <p
-              class="absolute bottom-0 md:left-48 left-0 text-left cursor-default"
+              class="absolute bottom-0 text-pretty md:left-48 left-0 text-left cursor-default"
             >
               📆 21 Feb 2020
             </p>
             <p
-              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default"
+              class="absolute top-0 text-pretty md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default"
             >
               ✌🏼 Finger Drummer
             </p>
@@ -83,7 +76,8 @@
               class="absolute bottom-0 right-0 text-right group"
             >
               📍
-              <span class="underline group-hover:decoration-blue-500"
+              <span
+                class="underline text-pretty group-hover:decoration-blue-500"
                 >SDH Daan Mogot</span
               >
             </a>
@@ -138,12 +132,12 @@
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">02</p>
             <p
-              class="absolute bottom-0 md:left-48 left-0 text-left cursor-default"
+              class="absolute text-pretty bottom-0 md:left-48 left-0 text-left cursor-default"
             >
               📆 9 Dec 2021
             </p>
             <p
-              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default"
+              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default text-pretty"
             >
               ✌🏼 Launchpad Lightshow, Keyboardist
             </p>
@@ -205,12 +199,12 @@
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">03</p>
             <p
-              class="absolute bottom-0 md:left-48 left-0 text-left cursor-default"
+              class="absolute text-pretty bottom-0 md:left-48 left-0 text-left cursor-default"
             >
               📆 13 Apr 2022
             </p>
             <p
-              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default"
+              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default text-pretty"
             >
               ✌🏼 Launchpad Lightshow
             </p>
@@ -268,12 +262,12 @@
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">04</p>
             <p
-              class="absolute bottom-0 md:left-48 left-0 text-left cursor-default"
+              class="absolute text-pretty bottom-0 md:left-48 left-0 text-left cursor-default"
             >
               📆 15 Nov 2022
             </p>
             <p
-              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default"
+              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default text-pretty"
             >
               ✌🏼 Keyboardist
             </p>
@@ -282,7 +276,8 @@
               class="absolute bottom-0 right-0 text-right group"
             >
               📍
-              <span class="underline group-hover:decoration-blue-500"
+              <span
+                class="underline text-pretty group-hover:decoration-blue-500"
                 >SDH Daan Mogot</span
               >
             </a>
@@ -326,12 +321,12 @@
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">05</p>
             <p
-              class="absolute bottom-0 md:left-48 left-0 text-left cursor-default"
+              class="absolute text-pretty bottom-0 md:left-48 left-0 text-left cursor-default"
             >
               📆 06 Dec 2022
             </p>
             <p
-              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default"
+              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default text-pretty"
             >
               ✌🏼 Playback, Stage Designer + Manager
             </p>
@@ -340,7 +335,8 @@
               class="absolute bottom-0 right-0 text-right group"
             >
               📍
-              <span class="underline group-hover:decoration-blue-500"
+              <span
+                class="underline text-pretty group-hover:decoration-blue-500"
                 >SDH Daan Mogot</span
               >
             </a>
@@ -378,12 +374,12 @@
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">06</p>
             <p
-              class="absolute bottom-0 md:left-48 left-0 text-left cursor-default"
+              class="absolute text-pretty bottom-0 md:left-48 left-0 text-left cursor-default"
             >
               📆 23 May 2023
             </p>
             <p
-              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default"
+              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default text-pretty"
             >
               ✌🏼 Audio + Sound Engineer, Confidence Monitor
             </p>
@@ -392,7 +388,8 @@
               class="absolute bottom-0 right-0 text-right group"
             >
               📍
-              <span class="underline group-hover:decoration-blue-500"
+              <span
+                class="underline text-pretty group-hover:decoration-blue-500"
                 >SDH Daan Mogot</span
               >
             </a>
@@ -431,12 +428,12 @@
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">07</p>
             <p
-              class="absolute bottom-0 md:left-48 left-0 text-left cursor-default"
+              class="absolute text-pretty bottom-0 md:left-48 left-0 text-left cursor-default"
             >
               📆 30 May 2023
             </p>
             <p
-              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default"
+              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default text-pretty"
             >
               ✌🏼 Audio + Sound Engineer, Visual Effects Artist, Editor
             </p>
@@ -476,12 +473,12 @@
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">08</p>
             <p
-              class="absolute bottom-0 md:left-48 left-0 text-left cursor-default"
+              class="absolute text-pretty bottom-0 md:left-48 left-0 text-left cursor-default"
             >
               📆 08 Aug 2023
             </p>
             <p
-              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default"
+              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default text-pretty"
             >
               ✌🏼 Playback, Keyboardist, Drummer
             </p>
@@ -490,7 +487,8 @@
               class="absolute bottom-0 right-0 text-right group"
             >
               📍
-              <span class="underline group-hover:decoration-blue-500"
+              <span
+                class="underline text-pretty group-hover:decoration-blue-500"
                 >SDH Daan Mogot</span
               >
             </a>
@@ -547,12 +545,12 @@
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">09</p>
             <p
-              class="absolute bottom-0 md:left-48 left-0 text-left cursor-default"
+              class="absolute text-pretty bottom-0 md:left-48 left-0 text-left cursor-default"
             >
               📆 23 Oct 2023
             </p>
             <p
-              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default"
+              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default text-pretty"
             >
               ✌🏼 Keyboardist
             </p>
@@ -561,7 +559,8 @@
               class="absolute bottom-0 right-0 text-right group"
             >
               📍
-              <span class="underline group-hover:decoration-blue-500"
+              <span
+                class="underline text-pretty group-hover:decoration-blue-500"
                 >BINUS School Simprug</span
               >
             </a>
@@ -611,12 +610,12 @@
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">10</p>
             <p
-              class="absolute bottom-0 md:left-48 left-0 text-left cursor-default"
+              class="absolute text-pretty bottom-0 md:left-48 left-0 text-left cursor-default"
             >
               📆 02 Dec 2023
             </p>
             <p
-              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default"
+              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default text-pretty"
             >
               ✌🏼 Keyboardist
             </p>
@@ -625,7 +624,8 @@
               class="absolute bottom-0 right-0 text-right group"
             >
               📍
-              <span class="underline group-hover:decoration-blue-500"
+              <span
+                class="underline text-pretty group-hover:decoration-blue-500"
                 >Mal Taman Anggrek</span
               >
             </a>
@@ -669,12 +669,12 @@
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">11</p>
             <p
-              class="absolute bottom-0 md:left-48 left-0 text-left cursor-default"
+              class="absolute text-pretty bottom-0 md:left-48 left-0 text-left cursor-default"
             >
               📆 26 Jan 2024
             </p>
             <p
-              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default"
+              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default text-pretty"
             >
               ✌🏼 Keyboardist
             </p>
@@ -683,7 +683,8 @@
               class="absolute bottom-0 right-0 text-right group"
             >
               📍
-              <span class="underline group-hover:decoration-blue-500"
+              <span
+                class="underline text-pretty group-hover:decoration-blue-500"
                 >Jakarta Nanyang School</span
               >
             </a>
@@ -744,12 +745,12 @@
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">12</p>
             <p
-              class="absolute bottom-0 md:left-48 left-0 text-left cursor-default"
+              class="absolute text-pretty bottom-0 md:left-48 left-0 text-left cursor-default"
             >
               📆 17 May 2024
             </p>
             <p
-              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default"
+              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default text-pretty"
             >
               ✌🏼 Playback + Recording Engineer
             </p>
@@ -758,7 +759,8 @@
               class="absolute bottom-0 right-0 text-right group"
             >
               📍
-              <span class="underline group-hover:decoration-blue-500"
+              <span
+                class="underline text-pretty group-hover:decoration-blue-500"
                 >SDH Daan Mogot</span
               >
             </a>

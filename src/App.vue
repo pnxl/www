@@ -1,7 +1,7 @@
 <template>
-  <div id="app" class="px-8 py-4 pt-0 h-screen overflow-hidden">
+  <div id="app" class="px-8 py-4 pt-0 max-h-screen relative">
     <Header />
-    <router-view v-slot="{ Component }" class="mt-[6.5rem]">
+    <router-view v-slot="{ Component }" class="">
       <transition name="fade" mode="out-in">
         <component :is="Component" />
       </transition>

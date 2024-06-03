@@ -1,12 +1,12 @@
 <template>
   <main
-    class="overflow-y-scroll h-[calc(100vh-6.5rem)] -mb-4 -mr-4 pr-4 snap-y snap-mandatory"
+    class="overflow-y-scroll h-screen -mb-4 -mr-4 pr-4 snap-y snap-proximity"
   >
     <div
-      class="min-h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col justify-end md:justify-center gap-y-4"
+      class="min-h-screen snap-start snap-always flex flex-col md:justify-center gap-y-4"
     >
       <h4
-        class="cursor-default font-medium -mt-16 text-[2rem] xl:text-[3rem] 2xl:text-[5rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        class="cursor-default font-medium text-[2rem] mt-32 md:mt-0 xl:text-[3rem] 2xl:text-[5rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         Hi, I'm Jason.
       </h4>
@@ -75,10 +75,10 @@
       </div>
     </div>
     <div
-      class="min-h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col justify-end md:justify-center gap-y-4"
+      class="min-h-screen snap-start snap-always flex flex-col md:justify-center gap-y-4"
     >
       <h5
-        class="font-light italic cursor-default mt-8 text-[2rem] 2xl:text-[3rem] text-center text-neutral-900 dark:text-neutral-100 opacity-50 selection:bg-transparent"
+        class="font-light italic cursor-default mt-32 text-[2rem] 2xl:text-[3rem] text-center text-neutral-900 dark:text-neutral-100 opacity-50 selection:bg-transparent"
       >
         I can do many things, like...
       </h5>
@@ -194,13 +194,11 @@
         ...and probably everything else you can think of in between.
       </h6>
     </div>
-    <div
-      class="min-h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col gap-y-8 pt-4"
-    >
+    <div class="min-h-screen snap-start snap-always flex flex-col gap-y-8 pt-4">
       <h6
         v-motion-slide-visible-once-bottom
         :delay="0"
-        class="font-medium cursor-default text-3xl md:text-4xl lg:text-5xl md:w-2/3 text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        class="font-medium cursor-default text-3xl mt-24 md:text-4xl lg:text-5xl md:w-2/3 text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         I'm Jason, a 15-year-old guy based in Indonesia, who loves to do a lot
         of things; ranging from visuals, computers, and sound.
@@ -222,13 +220,11 @@
         sound because I've always loved live sound scenarios.
       </h6>
     </div>
-    <div
-      class="min-h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col gap-y-8 pt-4"
-    >
+    <div class="min-h-screen snap-start snap-always flex flex-col gap-y-8 pt-4">
       <h6
         v-motion-slide-visible-once-bottom
         :delay="0"
-        class="font-medium cursor-default text-3xl md:text-4xl lg:text-5xl md:w-2/3 text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+        class="font-medium cursor-default text-3xl mt-24 md:text-4xl lg:text-5xl md:w-2/3 text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         Of course, being a 15-year-old boy, I've still got lots of exciting
         things to learn about in this life.
@@ -244,7 +240,7 @@
       </h6>
     </div>
     <div
-      class="relative h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col justify-center gap-y-16"
+      class="relative h-screen snap-start snap-always flex flex-col justify-center gap-y-16"
     >
       <div>
         <h3
@@ -277,38 +273,37 @@
               #14b8a6
             );
           "
-          class="font-bold cursor-default uppercase overflow-x-hidden -my-4 lg:-my-12 text-[2.75rem] sm:text-[4rem] md:text-[5.5rem] lg:text-[6rem] xl:text-[9rem] 2xl:text-[11rem] text-center bg-clip-text text-transparent animate-gradient-x selection:bg-transparent"
+          class="font-bold cursor-default uppercase overflow-x-hidden -my-4 lg:-my-12 text-[2.5rem] sm:text-[4rem] md:text-[5.5rem] lg:text-[6rem] xl:text-[9rem] 2xl:text-[11rem] text-center bg-clip-text text-transparent animate-gradient-x selection:bg-transparent"
         />
         <h2
           class="font-light cursor-default -my-4 md:-my-5 lg:-my-7 text-[2.5rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
         >
           things <span class="italic underline font-medium">together</span>.
         </h2>
-      </div>
-
-      <div
-        v-motion-slide-visible-once-bottom
-        :delay="250"
-        class="absolute z-30 left-auto right-auto w-full bottom-12"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="18"
-          height="24"
-          viewBox="0 0 384 512"
-          class="mx-auto mt-12 md:mt-32 animate-bounce-b opacity-50"
+        <div
+          v-motion-slide-visible-once-bottom
+          :delay="250"
+          class="absolute z-30 left-auto right-auto w-full"
         >
-          <path
-            fill="currentColor"
-            d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8V64c0-17.7-14.3-32-32-32s-32 14.3-32 32v306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
-          />
-        </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="24"
+            viewBox="0 0 384 512"
+            class="mx-auto mt-12 md:mt-32 animate-bounce-b opacity-50"
+          >
+            <path
+              fill="currentColor"
+              d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8V64c0-17.7-14.3-32-32-32s-32 14.3-32 32v306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
+            />
+          </svg>
+        </div>
       </div>
     </div>
     <div
-      class="h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col justify-center gap-y-16"
+      class="h-screen snap-start snap-always flex flex-col justify-center gap-y-16"
     >
-      <div class="flex flex-col -mt-6 -mb-8 gap-y-32">
+      <div class="flex flex-col -mb-8 gap-y-32">
         <div class="flex flex-col gap-y-6">
           <p
             class="text-center text-xl opacity-100 w-full h-fit cursor-default"

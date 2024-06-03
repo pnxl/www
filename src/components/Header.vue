@@ -13,7 +13,7 @@
     }"
     :delay="750"
     :duration="750"
-    class="absolute w-full -mx-8 px-8 pt-4"
+    class="absolute w-full -mx-8 px-8 pt-4 z-50 dark:bg-neutral-950/65 bg-neutral-100/50 backdrop-blur-lg"
   >
     <header
       class="flex flex-row justify-between md:text-5xl sm:text-4xl text-3xl font-semibold"
