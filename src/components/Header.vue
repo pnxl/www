@@ -37,9 +37,10 @@
         >About</RouterLink
       >
       <RouterLink
-        to="/portfolio"
+        to="/portfolio/music"
         :class="
-          $route.fullPath === '/portfolio'
+          $route.fullPath === '/portfolio/music' ||
+          $route.fullPath === '/portfolio/developer'
             ? 'italic-active opacity-100'
             : 'hover:opacity-100 opacity-65 italic-on-hover'
         "
