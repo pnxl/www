@@ -44,31 +44,31 @@
                 I Love Indonesia
               </h1>
 
-              <div
-                class="flex justify-center mt-8 gap-x-2 overflow-x-clip relative"
-              >
+              <div class="flex justify-center mt-8 gap-x-2 relative">
                 <div
-                  class="absolute w-8 bg-gradient-to-r left-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
                 <div
-                  class="absolute w-8 bg-gradient-to-l right-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <img
-                  src="../../assets/portfolio/music/01/20200221_085204.00_02_05_29.Still006.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/01/20200221_085204.00_00_00_00.Still001.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/01/20200221_085204.00_01_46_28.Still005.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/01/20200221_085204.00_00_24_11.Still002.png"
-                  class="h-24"
-                />
+                <div class="flex gap-x-2 overflow-x-scroll">
+                  <img
+                    src="../../assets/portfolio/music/01/20200221_085204.00_02_05_29.Still006.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/01/20200221_085204.00_00_00_00.Still001.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/01/20200221_085204.00_01_46_28.Still005.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/01/20200221_085204.00_00_24_11.Still002.png"
+                    class="h-24"
+                  />
+                </div>
               </div>
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">01</p>
@@ -114,31 +114,31 @@
                 Friendship Day 2021 (Music Cover Competition)
               </h1>
 
-              <div
-                class="flex justify-center mt-8 gap-x-2 overflow-x-clip relative"
-              >
+              <div class="flex justify-center mt-8 gap-x-2 relative">
                 <div
-                  class="absolute w-8 bg-gradient-to-r left-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
                 <div
-                  class="absolute w-8 bg-gradient-to-l right-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <img
-                  src="../../assets/portfolio/music/02/Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_00_11_00.Still008.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/02/Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_02_53_29.Still011.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/02/Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_03_40_06.Still012.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/02/Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_03_53_15.Still013.png"
-                  class="h-24"
-                />
+                <div class="flex gap-x-2 overflow-x-scroll">
+                  <img
+                    src="../../assets/portfolio/music/02/Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_00_11_00.Still008.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/02/Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_02_53_29.Still011.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/02/Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_03_40_06.Still012.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/02/Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_03_53_15.Still013.png"
+                    class="h-24"
+                  />
+                </div>
               </div>
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">02</p>
@@ -181,31 +181,31 @@
                 Easter Music Competition
               </h1>
 
-              <div
-                class="flex justify-center mt-8 gap-x-2 overflow-x-clip relative"
-              >
+              <div class="flex justify-center mt-8 gap-x-2 relative">
                 <div
-                  class="absolute w-8 bg-gradient-to-r left-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
                 <div
-                  class="absolute w-8 bg-gradient-to-l right-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <img
-                  src="../../assets/portfolio/music/03/Final Render (Downscaled30fps).mp4.00_00_10_28.Still014.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/03/Final Render (Downscaled30fps).mp4.00_00_46_11.Still015.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/03/Final Render (Downscaled30fps).mp4.00_01_56_22.Still016.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/03/Final Render (Downscaled30fps).mp4.00_03_24_19.Still017.png"
-                  class="h-24"
-                />
+                <div class="flex gap-x-2 overflow-x-scroll">
+                  <img
+                    src="../../assets/portfolio/music/03/Final Render (Downscaled30fps).mp4.00_00_10_28.Still014.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/03/Final Render (Downscaled30fps).mp4.00_00_46_11.Still015.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/03/Final Render (Downscaled30fps).mp4.00_01_56_22.Still016.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/03/Final Render (Downscaled30fps).mp4.00_03_24_19.Still017.png"
+                    class="h-24"
+                  />
+                </div>
               </div>
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">03</p>
@@ -243,35 +243,35 @@
                 8G's First Chapel
               </h1>
 
-              <div
-                class="flex justify-center mt-8 gap-x-2 overflow-x-clip relative"
-              >
+              <div class="flex justify-center mt-8 gap-x-2 relative">
                 <div
-                  class="absolute w-8 bg-gradient-to-r left-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
                 <div
-                  class="absolute w-8 bg-gradient-to-l right-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <img
-                  src="../../assets/portfolio/music/04/IMG_20221027_144457.jpg"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/04/IMG_20221027_141609.jpg"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/04/WhatsApp Image 2022-11-15 at 15.50.39 (2).jpeg"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/04/IMG_20221027_172346.jpg"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/04/40729.jpg"
-                  class="h-24"
-                />
+                <div class="flex gap-x-2 overflow-x-scroll">
+                  <img
+                    src="../../assets/portfolio/music/04/IMG_20221027_144457.jpg"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/04/IMG_20221027_141609.jpg"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/04/WhatsApp Image 2022-11-15 at 15.50.39 (2).jpeg"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/04/IMG_20221027_172346.jpg"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/04/40729.jpg"
+                    class="h-24"
+                  />
+                </div>
               </div>
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">04</p>
@@ -318,31 +318,31 @@
                 DH Look Alike
               </h1>
 
-              <div
-                class="flex justify-center mt-8 gap-x-2 overflow-x-clip relative"
-              >
+              <div class="flex justify-center mt-8 gap-x-2 relative">
                 <div
-                  class="absolute w-8 bg-gradient-to-r left-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
                 <div
-                  class="absolute w-8 bg-gradient-to-l right-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <img
-                  src="../../assets/portfolio/music/05/DSC08448.jpg"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/05/DSC08451.jpg"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/05/DSC08456.jpg"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/05/DSC08463.jpg"
-                  class="h-24"
-                />
+                <div class="flex gap-x-2 overflow-x-scroll">
+                  <img
+                    src="../../assets/portfolio/music/05/DSC08448.jpg"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/05/DSC08451.jpg"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/05/DSC08456.jpg"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/05/DSC08463.jpg"
+                    class="h-24"
+                  />
+                </div>
               </div>
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">05</p>
@@ -384,27 +384,27 @@
                 8G's Second Chapel
               </h1>
 
-              <div
-                class="flex justify-center mt-8 gap-x-2 overflow-x-clip relative"
-              >
+              <div class="flex justify-center mt-8 gap-x-2 relative">
                 <div
-                  class="absolute w-8 bg-gradient-to-r left-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
                 <div
-                  class="absolute w-8 bg-gradient-to-l right-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <img
-                  src="../../assets/portfolio/music/06/IMG_3605.jpg"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/06/IMG_3608.jpg"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/06/IMG_3814.jpg"
-                  class="h-24"
-                />
+                <div class="flex gap-x-2 overflow-x-scroll">
+                  <img
+                    src="../../assets/portfolio/music/06/IMG_3605.jpg"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/06/IMG_3608.jpg"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/06/IMG_3814.jpg"
+                    class="h-24"
+                  />
+                </div>
               </div>
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">06</p>
@@ -446,19 +446,19 @@
                 Cross-class Final Chapel
               </h1>
 
-              <div
-                class="flex justify-center mt-8 gap-x-2 overflow-x-clip relative"
-              >
+              <div class="flex justify-center mt-8 gap-x-2 relative">
                 <div
-                  class="absolute w-8 bg-gradient-to-r left-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
                 <div
-                  class="absolute w-8 bg-gradient-to-l right-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <img
-                  src="../../assets/portfolio/music/07/Screenshot_2023-05-29_at_22.02.33.png"
-                  class="h-24"
-                />
+                <div class="flex gap-x-2 overflow-x-scroll">
+                  <img
+                    src="../../assets/portfolio/music/07/Screenshot_2023-05-29_at_22.02.33.png"
+                    class="h-24"
+                  />
+                </div>
               </div>
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">07</p>
@@ -494,19 +494,19 @@
                 9A's First Chapel
               </h1>
 
-              <div
-                class="flex justify-center mt-8 gap-x-2 overflow-x-clip relative"
-              >
+              <div class="flex justify-center mt-8 gap-x-2 relative">
                 <div
-                  class="absolute w-8 bg-gradient-to-r left-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
                 <div
-                  class="absolute w-8 bg-gradient-to-l right-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <img
-                  src="../../assets/portfolio/music/08/header.png"
-                  class="h-24"
-                />
+                <div class="flex gap-x-2 overflow-x-scroll">
+                  <img
+                    src="../../assets/portfolio/music/08/header.png"
+                    class="h-24"
+                  />
+                </div>
               </div>
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">08</p>
@@ -553,35 +553,35 @@
                 Blue Feather V
               </h1>
 
-              <div
-                class="flex justify-center mt-8 gap-x-2 overflow-x-clip relative"
-              >
+              <div class="flex justify-center mt-8 gap-x-2 relative">
                 <div
-                  class="absolute w-8 bg-gradient-to-r left-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
                 <div
-                  class="absolute w-8 bg-gradient-to-l right-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <img
-                  src="../../assets/portfolio/music/09/023f50bd-a28e-4251-a193-e96b15dd9292.jpg"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/09/c01ba67c-29e4-40d5-a445-6a0ceef786a5.jpg"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/09/D7A9DB1B-D11F-4E0E-B0A5-DDDEB885D80D.jpg"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/09/header.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/09/IMG-20231023-WA0040.jpg"
-                  class="h-24"
-                />
+                <div class="flex gap-x-2 overflow-x-scroll">
+                  <img
+                    src="../../assets/portfolio/music/09/023f50bd-a28e-4251-a193-e96b15dd9292.jpg"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/09/c01ba67c-29e4-40d5-a445-6a0ceef786a5.jpg"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/09/D7A9DB1B-D11F-4E0E-B0A5-DDDEB885D80D.jpg"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/09/header.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/09/IMG-20231023-WA0040.jpg"
+                    class="h-24"
+                  />
+                </div>
               </div>
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">09</p>
@@ -628,31 +628,31 @@
                 with Sekolah Dian Harapan
               </h1>
 
-              <div
-                class="flex justify-center mt-8 gap-x-2 overflow-x-clip relative"
-              >
+              <div class="flex justify-center mt-8 gap-x-2 relative">
                 <div
-                  class="absolute w-8 bg-gradient-to-r left-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
                 <div
-                  class="absolute w-8 bg-gradient-to-l right-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <img
-                  src="../../assets/portfolio/music/10/20231202_175811.mp4.00_00_33_04.Still020.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/10/IMG_6385.jpeg"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/10/IMG_6386.MOV.00_00_03_25.Still018.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/10/IMG_6387.jpeg"
-                  class="h-24"
-                />
+                <div class="flex gap-x-2 overflow-x-scroll">
+                  <img
+                    src="../../assets/portfolio/music/10/20231202_175811.mp4.00_00_33_04.Still020.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/10/IMG_6385.jpeg"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/10/IMG_6386.MOV.00_00_03_25.Still018.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/10/IMG_6387.jpeg"
+                    class="h-24"
+                  />
+                </div>
               </div>
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">10</p>
@@ -699,31 +699,31 @@
                 JNY Cup
               </h1>
 
-              <div
-                class="flex justify-center mt-8 gap-x-2 overflow-x-clip relative"
-              >
+              <div class="flex justify-center mt-8 gap-x-2 relative">
                 <div
-                  class="absolute w-8 bg-gradient-to-r left-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
                 <div
-                  class="absolute w-8 bg-gradient-to-l right-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <img
-                  src="../../assets/portfolio/music/11/IMG_7253.jpeg"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/11/IMG_7274.jpeg"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/11/IMG_7280.jpeg"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/11/IMG_7286.jpeg"
-                  class="h-24"
-                />
+                <div class="flex gap-x-2 overflow-x-scroll">
+                  <img
+                    src="../../assets/portfolio/music/11/IMG_7253.jpeg"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/11/IMG_7274.jpeg"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/11/IMG_7280.jpeg"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/11/IMG_7286.jpeg"
+                    class="h-24"
+                  />
+                </div>
               </div>
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">11</p>
@@ -770,39 +770,39 @@
                 Music Concert
               </h1>
 
-              <div
-                class="flex justify-center mt-8 gap-x-2 overflow-x-clip relative"
-              >
+              <div class="flex justify-center mt-8 gap-x-2 relative">
                 <div
-                  class="absolute w-8 bg-gradient-to-r left-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
                 <div
-                  class="absolute w-8 bg-gradient-to-l right-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <img
-                  src="../../assets/portfolio/music/12/4aea5e4411194553b08d136e47ff5737.00_00_00_00.Still001.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/12/4aea5e4411194553b08d136e47ff5737.00_00_06_07.Still002.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/12/4aea5e4411194553b08d136e47ff5737.00_00_15_11.Still003.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/12/4aea5e4411194553b08d136e47ff5737.00_00_24_18.Still004.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/12/56682731-5d00-4e3a-ad6a-d91343e6d9cf.jpg"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/music/12/IMG_8710.jpeg"
-                  class="h-24"
-                />
+                <div class="flex gap-x-2 overflow-x-scroll">
+                  <img
+                    src="../../assets/portfolio/music/12/4aea5e4411194553b08d136e47ff5737.00_00_00_00.Still001.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/12/4aea5e4411194553b08d136e47ff5737.00_00_06_07.Still002.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/12/4aea5e4411194553b08d136e47ff5737.00_00_15_11.Still003.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/12/4aea5e4411194553b08d136e47ff5737.00_00_24_18.Still004.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/12/56682731-5d00-4e3a-ad6a-d91343e6d9cf.jpg"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/12/IMG_8710.jpeg"
+                    class="h-24"
+                  />
+                </div>
               </div>
             </div>
             <p class="absolute top-0 left-0 text-left cursor-default">12</p>

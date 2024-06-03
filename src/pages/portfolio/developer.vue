@@ -104,31 +104,31 @@
                 </p>
               </div>
 
-              <div
-                class="flex justify-center mt-8 gap-x-2 overflow-x-clip relative"
-              >
+              <div class="flex justify-center mt-8 gap-x-2 relative">
                 <div
-                  class="absolute w-8 bg-gradient-to-r left-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
                 <div
-                  class="absolute w-8 bg-gradient-to-l right-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <img
-                  src="../../assets/portfolio/developer/02/Screenshot 2024-06-03 at 18.09.17.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/developer/02/Screenshot 2024-06-03 at 18.14.06.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/developer/02/Screenshot 2024-06-03 at 18.14.09.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/developer/02/Screenshot 2024-06-03 at 18.17.16.png"
-                  class="h-24"
-                />
+                <div class="flex gap-x-2 overflow-x-scroll">
+                  <img
+                    src="../../assets/portfolio/developer/02/Screenshot 2024-06-03 at 18.09.17.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/developer/02/Screenshot 2024-06-03 at 18.14.06.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/developer/02/Screenshot 2024-06-03 at 18.14.09.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/developer/02/Screenshot 2024-06-03 at 18.17.16.png"
+                    class="h-24"
+                  />
+                </div>
               </div>
             </div>
             <p
@@ -184,23 +184,23 @@
                 </p>
               </div>
 
-              <div
-                class="flex justify-center mt-8 gap-x-2 overflow-x-clip relative"
-              >
+              <div class="flex justify-center mt-8 gap-x-2 relative">
                 <div
-                  class="absolute w-8 bg-gradient-to-r left-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
                 <div
-                  class="absolute w-8 bg-gradient-to-l right-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <img
-                  src="../../assets/portfolio/developer/03/Screenshot 2024-06-03 at 18.21.17.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/developer/03/Screenshot 2024-06-03 at 18.21.29.png"
-                  class="h-24"
-                />
+                <div class="flex gap-x-2 overflow-x-scroll">
+                  <img
+                    src="../../assets/portfolio/developer/03/Screenshot 2024-06-03 at 18.21.17.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/developer/03/Screenshot 2024-06-03 at 18.21.29.png"
+                    class="h-24"
+                  />
+                </div>
               </div>
             </div>
             <p
@@ -256,19 +256,19 @@
                 </p>
               </div>
 
-              <div
-                class="flex justify-center mt-8 gap-x-2 overflow-x-clip relative"
-              >
+              <div class="flex justify-center mt-8 gap-x-2 relative">
                 <div
-                  class="absolute w-8 bg-gradient-to-r left-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
                 <div
-                  class="absolute w-8 bg-gradient-to-l right-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <img
-                  src="../../assets/portfolio/developer/04/Screenshot 2024-06-03 at 18.24.15.png"
-                  class="h-24"
-                />
+                <div class="flex gap-x-2 overflow-x-scroll">
+                  <img
+                    src="../../assets/portfolio/developer/04/Screenshot 2024-06-03 at 18.24.15.png"
+                    class="h-24"
+                  />
+                </div>
               </div>
             </div>
             <p
@@ -321,35 +321,35 @@
                   temporary businesses - such as garage sales and pop-up shops.
                 </p>
               </div>
-              <div
-                class="flex justify-center mt-8 gap-x-2 overflow-x-clip relative"
-              >
+              <div class="flex justify-center mt-8 gap-x-2 relative">
                 <div
-                  class="absolute w-8 bg-gradient-to-r left-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
                 <div
-                  class="absolute w-8 bg-gradient-to-l right-0 top-0 h-full from-neutral-950 to-transparent"
+                  class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <img
-                  src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.25.36.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.26.24.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.26.42.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.27.35.png"
-                  class="h-24"
-                />
-                <img
-                  src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.27.39.png"
-                  class="h-24"
-                />
+                <div class="flex gap-x-2 overflow-x-scroll">
+                  <img
+                    src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.25.36.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.26.24.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.26.42.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.27.35.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.27.39.png"
+                    class="h-24"
+                  />
+                </div>
               </div>
             </div>
             <p
