@@ -1702,29 +1702,24 @@
       <h2
         class="font-bold -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
-        <router-link
-          to="/portfolio#design"
-          class="underline decoration-blue-500 dark:decoration-indigo-500 duration-0 hover:decoration-neutral-900 dark:hover:decoration-neutral-400 bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-900 dark:from-neutral-100 dark:to-neutral-100 hover:from-blue-500 hover:to-indigo-500 dark:hover:from-indigo-500 dark:hover:to-violet-500"
-          >design</router-link
+        <span class="underline decoration-blue-500 dark:decoration-indigo-500"
+          >design</span
         ><span class="no-underline font-medium">,</span>
       </h2>
       <h2
         class="font-bold -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
-        <router-link
-          to="/portfolio#technology"
-          class="underline decoration-[#7761F4] dark:decoration-[#9a59f7] duration-0 hover:decoration-neutral-900 dark:hover:decoration-neutral-400 bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-900 dark:from-neutral-100 dark:to-neutral-100 hover:from-indigo-500 hover:to-violet-500 dark:hover:from-violet-500 dark:hover:to-purple-500"
-          >technology</router-link
+        <span class="underline decoration-[#7761F4] dark:decoration-[#9a59f7]"
+          >technology</span
         ><span class="no-underline cursor-default font-medium">,</span>
       </h2>
       <h2
         class="font-bold -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
         <span class="no-underline font-medium mr-4 cursor-default">and</span>
-        <router-link
-          to="/portfolio#music"
-          class="underline decoration-purple-500 dark:decoration-fuchsia-500 duration-0 hover:decoration-neutral-900 dark:hover:decoration-neutral-400 bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 to-neutral-900 dark:from-neutral-100 dark:to-neutral-100 hover:from-violet-500 hover:to-purple-500 dark:hover:from-purple-500 dark:hover:to-fuchsia-500"
-          >music</router-link
+        <span
+          class="underline decoration-purple-500 dark:decoration-fuchsia-500"
+          >music</span
         ><span class="no-underline cursor-default font-medium">,</span>
       </h2>
       <h2
