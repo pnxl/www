@@ -1,10 +1,6 @@
 <template>
-  <main
-    class="overflow-y-scroll h-screen -mb-4 -mr-4 pr-4 snap-y snap-proximity"
-  >
-    <div
-      class="min-h-screen snap-start snap-always flex flex-col md:justify-center gap-y-4"
-    >
+  <main class="overflow-y-scroll h-screen -mb-4 -mr-4 pr-4">
+    <div class="min-h-screen flex flex-col md:justify-center gap-y-4">
       <h4
         class="cursor-default font-medium text-[2rem] mt-32 md:mt-0 xl:text-[3rem] 2xl:text-[5rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
@@ -74,9 +70,7 @@
         </div>
       </div>
     </div>
-    <div
-      class="min-h-screen snap-start snap-always flex flex-col md:justify-center gap-y-4"
-    >
+    <div class="min-h-screen flex flex-col md:justify-center gap-y-4">
       <h5
         class="font-light italic cursor-default mt-32 text-[2rem] 2xl:text-[3rem] text-center text-neutral-900 dark:text-neutral-100 opacity-50 selection:bg-transparent"
       >
@@ -194,7 +188,7 @@
         ...and probably everything else you can think of in between.
       </h6>
     </div>
-    <div class="min-h-screen snap-start snap-always flex flex-col gap-y-8 pt-4">
+    <div class="min-h-screen flex flex-col gap-y-8 pt-4">
       <h6
         v-motion-slide-visible-once-bottom
         :delay="0"
@@ -220,7 +214,7 @@
         sound because I've always loved live sound scenarios.
       </h6>
     </div>
-    <div class="min-h-screen snap-start snap-always flex flex-col gap-y-8 pt-4">
+    <div class="min-h-screen flex flex-col gap-y-8 pt-4">
       <h6
         v-motion-slide-visible-once-bottom
         :delay="0"
@@ -239,9 +233,7 @@
         always try to do my best.
       </h6>
     </div>
-    <div
-      class="relative h-screen snap-start snap-always flex flex-col justify-center gap-y-16"
-    >
+    <div class="relative h-screen flex flex-col justify-center gap-y-16">
       <div>
         <h3
           class="font-base cursor-default -mt-16 -my-4 text-[2.5rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
@@ -300,9 +292,7 @@
         </div>
       </div>
     </div>
-    <div
-      class="h-screen snap-start snap-always flex flex-col justify-center gap-y-16"
-    >
+    <div class="h-screen flex flex-col justify-center gap-y-16">
       <div class="flex flex-col -mb-8 gap-y-32">
         <div class="flex flex-col gap-y-6">
           <p

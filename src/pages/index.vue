@@ -1,8 +1,6 @@
 <template>
-  <main
-    class="overflow-y-scroll h-screen -mb-4 -mr-4 pr-4 snap-y snap-proximity"
-  >
-    <div class="h-screen snap-start snap-always relative">
+  <main class="overflow-y-scroll h-screen -mb-4 -mr-4 pr-4">
+    <div class="h-screen relative">
       <div class="w-full relative">
         <div class="absolute w-full">
           <div
@@ -1691,9 +1689,7 @@
         </div>
       </div>
     </div>
-    <div
-      class="h-screen snap-start snap-always flex flex-col justify-center gap-y-4"
-    >
+    <div class="h-screen flex flex-col justify-center gap-y-4">
       <h3
         class="font-medium cursor-default -mt-16 -my-4 md:-my-5 lg:-my-7 text-[3rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
@@ -1728,9 +1724,7 @@
         projects.
       </h2>
     </div>
-    <div
-      class="h-screen snap-start snap-always flex flex-col justify-center gap-y-4"
-    >
+    <div class="h-screen flex flex-col justify-center gap-y-4">
       <h4
         class="font-light italic cursor-default -mt-16 -my-3 text-[2rem] xl:text-[3rem] 2xl:text-[5rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
       >
@@ -1768,9 +1762,7 @@
         ><span class="no-underline cursor-default font-medium">.</span>
       </h2>
     </div>
-    <div
-      class="relative h-screen snap-start snap-always flex flex-col justify-center gap-y-16"
-    >
+    <div class="relative h-screen flex flex-col justify-center gap-y-16">
       <div>
         <h3
           class="font-base cursor-default -mt-16 -my-4 text-[2.5rem] md:text-[4rem] lg:text-[5rem] xl:text-[6rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
@@ -1829,9 +1821,7 @@
         </div>
       </div>
     </div>
-    <div
-      class="h-screen snap-start snap-always flex flex-col justify-center gap-y-16"
-    >
+    <div class="h-screen flex flex-col justify-center gap-y-16">
       <div class="flex flex-col -mb-8 gap-y-32">
         <div class="flex flex-col gap-y-6">
           <p

@@ -1,8 +1,6 @@
 <template>
-  <main
-    class="overflow-y-scroll h-screen -mb-4 -mr-4 pr-4 snap-y snap-proximity"
-  >
-    <div class="min-h-screen snap-start snap-always flex flex-col gap-y-8">
+  <main class="overflow-y-scroll h-screen -mb-4 -mr-4 pr-4">
+    <div class="min-h-screen flex flex-col gap-y-8">
       <div
         v-motion-slide-visible-once-bottom
         :delay="0"
@@ -832,7 +830,7 @@
       </div>
     </div>
     <div
-      class="relative h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col justify-center gap-y-16"
+      class="relative h-[calc(100vh-5.5rem)] flex flex-col justify-center gap-y-16"
     >
       <div>
         <h3
@@ -893,9 +891,7 @@
         </svg>
       </div>
     </div>
-    <div
-      class="h-[calc(100vh-5.5rem)] snap-start snap-always flex flex-col justify-center gap-y-16"
-    >
+    <div class="h-[calc(100vh-5.5rem)] flex flex-col justify-center gap-y-16">
       <div class="flex flex-col -mt-6 -mb-8 gap-y-32">
         <div class="flex flex-col gap-y-6">
           <p
