@@ -101,7 +101,10 @@
           :duration="500"
           class="relative h-full opacity-50 pt-4"
         >
-          <marquee-text :duration="600" class="text-[2.5rem] font-semibold">
+          <marquee-text
+            :duration="600"
+            class="text-[1.5rem] md:text-[2.5rem] font-semibold"
+          >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >cool guy 😎</span
@@ -113,14 +116,6 @@
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Systems Administrator</span
-            >
-            <span
-              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-              >&bull;</span
-            >
-            <span
-              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Tech Infrastructure Manager</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -145,14 +140,6 @@
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Storywriter</span
-            >
-            <span
-              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-              >&bull;</span
-            >
-            <span
-              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Songwriter</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -208,7 +195,7 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Playback Composer/Arranger</span
+              >Playback Engineer/Tech</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -248,7 +235,7 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Lighting Technician</span
+              >Lighting Designer</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -274,7 +261,7 @@
           <marquee-text
             :duration="600"
             :reverse="true"
-            class="text-[2.5rem] font-semibold"
+            class="text-[1.5rem] md:text-[2.5rem] font-semibold"
           >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
@@ -326,7 +313,7 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Playback Composer/Arranger</span
+              >Playback Engineer/Tech</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -366,7 +353,7 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Lighting Technician</span
+              >Lighting Designer</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -406,14 +393,6 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Tech Infrastructure Manager</span
-            >
-            <span
-              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-              >&bull;</span
-            >
-            <span
-              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Software Developer</span
             >
             <span
@@ -431,21 +410,16 @@
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Storywriter</span
-            >
-            <span
-              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-              >&bull;</span
-            >
-            <span
-              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Songwriter</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
               >&bull;</span
             >
           </marquee-text>
-          <marquee-text :duration="600" class="text-[2.5rem] font-semibold">
+          <marquee-text
+            :duration="600"
+            class="text-[1.5rem] md:text-[2.5rem] font-semibold"
+          >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Playback Technician</span
@@ -480,7 +454,7 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Lighting Technician</span
+              >Lighting Designer</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -520,14 +494,6 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Tech Infrastructure Manager</span
-            >
-            <span
-              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-              >&bull;</span
-            >
-            <span
-              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Software Developer</span
             >
             <span
@@ -545,14 +511,6 @@
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Storywriter</span
-            >
-            <span
-              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-              >&bull;</span
-            >
-            <span
-              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Songwriter</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -608,7 +566,7 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Playback Composer/Arranger</span
+              >Playback Engineer/Tech</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -618,7 +576,7 @@
           <marquee-text
             :duration="600"
             :reverse="true"
-            class="text-[2.5rem] font-semibold"
+            class="text-[1.5rem] md:text-[2.5rem] font-semibold"
           >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
@@ -638,7 +596,7 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Playback Composer/Arranger</span
+              >Playback Engineer/Tech</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -678,7 +636,7 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Lighting Technician</span
+              >Lighting Designer</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -718,14 +676,6 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Tech Infrastructure Manager</span
-            >
-            <span
-              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-              >&bull;</span
-            >
-            <span
-              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Software Developer</span
             >
             <span
@@ -743,14 +693,6 @@
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Storywriter</span
-            >
-            <span
-              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-              >&bull;</span
-            >
-            <span
-              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Songwriter</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -789,18 +731,13 @@
               >&bull;</span
             >
           </marquee-text>
-          <marquee-text :duration="600" class="text-[2.5rem] font-semibold">
+          <marquee-text
+            :duration="600"
+            class="text-[1.5rem] md:text-[2.5rem] font-semibold"
+          >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Storywriter</span
-            >
-            <span
-              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-              >&bull;</span
-            >
-            <span
-              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Songwriter</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -856,7 +793,7 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Playback Composer/Arranger</span
+              >Playback Engineer/Tech</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -896,7 +833,7 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Lighting Technician</span
+              >Lighting Designer</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -936,14 +873,6 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Tech Infrastructure Manager</span
-            >
-            <span
-              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-              >&bull;</span
-            >
-            <span
-              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Software Developer</span
             >
             <span
@@ -962,7 +891,7 @@
           <marquee-text
             :duration="600"
             :reverse="true"
-            class="text-[2.5rem] font-semibold"
+            class="text-[1.5rem] md:text-[2.5rem] font-semibold"
           >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
@@ -990,7 +919,7 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Playback Composer/Arranger</span
+              >Playback Engineer/Tech</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -1029,7 +958,7 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Lighting Technician</span
+              >Lighting Designer</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -1069,14 +998,6 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Tech Infrastructure Manager</span
-            >
-            <span
-              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-              >&bull;</span
-            >
-            <span
-              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Software Developer</span
             >
             <span
@@ -1094,14 +1015,6 @@
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Storywriter</span
-            >
-            <span
-              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-              >&bull;</span
-            >
-            <span
-              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Songwriter</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -1132,7 +1045,10 @@
               >&bull;</span
             >
           </marquee-text>
-          <marquee-text :duration="600" class="text-[2.5rem] font-semibold">
+          <marquee-text
+            :duration="600"
+            class="text-[1.5rem] md:text-[2.5rem] font-semibold"
+          >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >cool guy 😎</span
@@ -1144,14 +1060,6 @@
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Systems Administrator</span
-            >
-            <span
-              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-              >&bull;</span
-            >
-            <span
-              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Tech Infrastructure Manager</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -1176,14 +1084,6 @@
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Storywriter</span
-            >
-            <span
-              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-              >&bull;</span
-            >
-            <span
-              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Songwriter</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -1239,7 +1139,7 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Playback Composer/Arranger</span
+              >Playback Engineer/Tech</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -1279,7 +1179,7 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Lighting Technician</span
+              >Lighting Designer</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -1305,7 +1205,7 @@
           <marquee-text
             :duration="600"
             :reverse="true"
-            class="text-[2.5rem] font-semibold"
+            class="text-[1.5rem] md:text-[2.5rem] font-semibold"
           >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
@@ -1357,7 +1257,7 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Playback Composer/Arranger</span
+              >Playback Engineer/Tech</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -1397,7 +1297,7 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Lighting Technician</span
+              >Lighting Designer</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -1437,14 +1337,6 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Tech Infrastructure Manager</span
-            >
-            <span
-              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-              >&bull;</span
-            >
-            <span
-              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Software Developer</span
             >
             <span
@@ -1462,21 +1354,16 @@
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Storywriter</span
-            >
-            <span
-              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-              >&bull;</span
-            >
-            <span
-              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Songwriter</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
               >&bull;</span
             >
           </marquee-text>
-          <marquee-text :duration="600" class="text-[2.5rem] font-semibold">
+          <marquee-text
+            :duration="600"
+            class="text-[1.5rem] md:text-[2.5rem] font-semibold"
+          >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Playback Technician</span
@@ -1511,7 +1398,7 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Lighting Technician</span
+              >Lighting Designer</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -1551,14 +1438,6 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Tech Infrastructure Manager</span
-            >
-            <span
-              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-              >&bull;</span
-            >
-            <span
-              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Software Developer</span
             >
             <span
@@ -1576,14 +1455,6 @@
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
               >Storywriter</span
-            >
-            <span
-              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-              >&bull;</span
-            >
-            <span
-              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Songwriter</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -1639,7 +1510,7 @@
             >
             <span
               class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-              >Playback Composer/Arranger</span
+              >Playback Engineer/Tech</span
             >
             <span
               class="mx-4 opacity-60 cursor-default selection:bg-transparent"
@@ -1659,24 +1530,24 @@
         <div
           class="absolute z-10 top-0 right-0 w-[4rem] h-full bg-gradient-to-l from-neutral-100 dark:from-neutral-950 to-transparent dark:to-transparent pointer-events-none"
         ></div>
-        <div
-          v-motion-slide-visible-once-bottom
-          :delay="1000"
-          class="absolute z-30 left-auto right-auto w-full bottom-0"
+      </div>
+      <div
+        v-motion-slide-visible-once-bottom
+        :delay="1000"
+        class="absolute z-30 left-auto right-auto w-full bottom-16"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="18"
+          height="24"
+          viewBox="0 0 384 512"
+          class="mx-auto mt-12 md:mt-32 animate-bounce-b opacity-50"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="18"
-            height="24"
-            viewBox="0 0 384 512"
-            class="mx-auto mt-12 md:mt-32 animate-bounce-b opacity-50"
-          >
-            <path
-              fill="currentColor"
-              d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8V64c0-17.7-14.3-32-32-32s-32 14.3-32 32v306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
-            />
-          </svg>
-        </div>
+          <path
+            fill="currentColor"
+            d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8V64c0-17.7-14.3-32-32-32s-32 14.3-32 32v306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
+          />
+        </svg>
       </div>
     </div>
     <div class="h-screen flex flex-col justify-center gap-y-4">
@@ -1862,6 +1733,7 @@
 </template>
 
 <script lang="ts">
+// @ts-ignore
 import MarqueeText from "vue-marquee-text-component";
 // @ts-ignore
 import { VueWriter } from "vue-writer";
