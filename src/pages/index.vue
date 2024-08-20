@@ -1,1691 +1,1681 @@
 <template>
   <main class="overflow-y-scroll h-screen -mb-4 -mr-4 pr-4">
-    <div class="h-screen relative">
-      <div class="w-full relative">
-        <div class="absolute w-full">
+    <div class="h-screen relative flex justify-center flex-col">
+      <div class="absolute w-full">
+        <div
+          class="w-full absolute z-30 pt-8 mt-4 h-full flex flex-col justify-center pointer-events-none"
+        >
           <div
-            class="w-full absolute z-30 pt-8 mt-4 h-full flex flex-col justify-center pointer-events-none"
+            class="flex-row w-full justify-center font-black hidden cursor-default lg:flex lg:text-[9rem] xl:text-[11rem] 2xl:text-[13rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
           >
-            <div
-              class="flex-row w-full justify-center font-black hidden cursor-default lg:flex lg:text-[9rem] xl:text-[11rem] 2xl:text-[13rem] text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
-            >
-              <h1 v-motion-slide-visible-once-bottom :delay="0" :duration="125">
-                H
-              </h1>
-              <h1
-                v-motion-slide-visible-once-bottom
-                :delay="62.5"
-                :duration="125"
-              >
-                e
-              </h1>
-              <h1
-                v-motion-slide-visible-once-bottom
-                :delay="125"
-                :duration="125"
-              >
-                y
-              </h1>
-              <h1
-                v-motion-slide-visible-once-bottom
-                :delay="187.5"
-                :duration="125"
-                class="-ml-5 mr-8"
-              >
-                ,
-              </h1>
-              <h1
-                v-motion-slide-visible-once-bottom
-                :delay="500"
-                :duration="125"
-              >
-                I
-              </h1>
-              <h1
-                v-motion-slide-visible-once-bottom
-                :delay="562.5"
-                :duration="125"
-              >
-                '
-              </h1>
-              <h1
-                v-motion-slide-visible-once-bottom
-                :delay="625"
-                :duration="125"
-                class="mr-8"
-              >
-                m
-              </h1>
-              <span
-                v-motion-slide-visible-once-bottom
-                :delay="750"
-                :duration="125"
-                style="
-                  background-image: linear-gradient(
-                    to right,
-                    #ec4899,
-                    #a855f7,
-                    #6366f1,
-                    #0ea5e9,
-                    #14b8a6
-                  );
-                "
-                class="bg-clip-text text-transparent animate-gradient-x"
-                >Jason</span
-              >
-              <h1
-                v-motion-slide-visible-once-bottom
-                :delay="812.5"
-                :duration="125"
-              >
-                .
-              </h1>
-            </div>
-            <h2
-              class="font-black text-[3rem] sm:text-[5rem] md:text-[6rem] opacity-60 cursor-default lg:hidden text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
-            >
-              Hey there!
-            </h2>
-            <h1
-              class="font-black cursor-default text-[5rem] sm:text-[8rem] md:text-[9rem] lg:hidden text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
-            >
-              I'm
-              <span
-                class="bg-gradient-to-r dark:from-indigo-500 dark:to-fuchsia-500 from-blue-500 to-purple-500 bg-clip-text text-transparent animate-gradient-x"
-                >Jason</span
-              >.
+            <h1 v-motion-slide-visible-once-bottom :delay="0" :duration="125">
+              H
             </h1>
-            <vue-writer
-              :array="['Welcome to my small corner of the web.']"
-              class="text-center text-3xl opacity-75 font-medium w-full h-fit"
-              :iterations="'1'"
-              :typeSpeed="50"
-              :delay="600000"
-              :start="1500"
+            <h1
+              v-motion-slide-visible-once-bottom
+              :delay="62.5"
+              :duration="125"
+            >
+              e
+            </h1>
+            <h1 v-motion-slide-visible-once-bottom :delay="125" :duration="125">
+              y
+            </h1>
+            <h1
+              v-motion-slide-visible-once-bottom
+              :delay="187.5"
+              :duration="125"
+              class="-ml-5 mr-8"
+            >
+              ,
+            </h1>
+            <h1 v-motion-slide-visible-once-bottom :delay="500" :duration="125">
+              I
+            </h1>
+            <h1
+              v-motion-slide-visible-once-bottom
+              :delay="562.5"
+              :duration="125"
+            >
+              '
+            </h1>
+            <h1
+              v-motion-slide-visible-once-bottom
+              :delay="625"
+              :duration="125"
+              class="mr-8"
+            >
+              m
+            </h1>
+            <span
+              v-motion-slide-visible-once-bottom
+              :delay="750"
+              :duration="125"
+              style="
+                background-image: linear-gradient(
+                  to right,
+                  #ec4899,
+                  #a855f7,
+                  #6366f1,
+                  #0ea5e9,
+                  #14b8a6
+                );
+              "
+              class="bg-clip-text text-transparent animate-gradient-x"
+              >Jason</span
+            >
+            <h1
+              v-motion-slide-visible-once-bottom
+              :delay="812.5"
+              :duration="125"
+            >
+              .
+            </h1>
+          </div>
+          <h2
+            class="font-black text-[3rem] sm:text-[5rem] md:text-[6rem] opacity-60 cursor-default lg:hidden text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+          >
+            Hey there!
+          </h2>
+          <h1
+            class="font-black cursor-default text-[5rem] sm:text-[8rem] md:text-[9rem] lg:hidden text-center text-neutral-900 dark:text-neutral-100 selection:bg-transparent"
+          >
+            I'm
+            <span
+              class="bg-gradient-to-r dark:from-indigo-500 dark:to-fuchsia-500 from-blue-500 to-purple-500 bg-clip-text text-transparent animate-gradient-x"
+              >Jason</span
+            >.
+          </h1>
+          <vue-writer
+            :array="['Welcome to my small corner of the web.']"
+            class="text-center text-3xl opacity-75 font-medium w-full h-fit"
+            :iterations="'1'"
+            :typeSpeed="50"
+            :delay="600000"
+            :start="1500"
+          />
+        </div>
+        <div
+          v-motion-fade-visible-once
+          :delay="750"
+          :duration="500"
+          class="relative h-full opacity-50 pt-4"
+        >
+          <marquee-text :duration="600" class="text-[2.5rem] font-semibold">
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >cool guy 😎</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Systems Administrator</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Tech Infrastructure Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Software Developer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >UI/UX Designer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Storywriter</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Songwriter</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Keyboardist</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Drummer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Guitar Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Professional Guitar Stand</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Producer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Production Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Playback Composer/Arranger</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Playback Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Sound Engineer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Audio Engineer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Stage Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Lighting Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Live Visuals</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >A/V Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+          </marquee-text>
+          <marquee-text
+            :duration="600"
+            :reverse="true"
+            class="text-[2.5rem] font-semibold"
+          >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Keyboardist</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Drummer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Guitar Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Professional Guitar Stand</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Producer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Production Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Playback Composer/Arranger</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Playback Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Sound Engineer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Audio Engineer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Stage Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Lighting Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Live Visuals</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >A/V Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >cool guy 😎</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Systems Administrator</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Tech Infrastructure Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Software Developer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >UI/UX Designer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Storywriter</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Songwriter</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+          </marquee-text>
+          <marquee-text :duration="600" class="text-[2.5rem] font-semibold">
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Playback Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Sound Engineer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Audio Engineer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Stage Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Lighting Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Live Visuals</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >A/V Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >cool guy 😎</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Systems Administrator</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Tech Infrastructure Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Software Developer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >UI/UX Designer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Storywriter</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Songwriter</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Keyboardist</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Drummer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Guitar Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Professional Guitar Stand</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Producer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Production Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Playback Composer/Arranger</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+          </marquee-text>
+          <marquee-text
+            :duration="600"
+            :reverse="true"
+            class="text-[2.5rem] font-semibold"
+          >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Producer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Production Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Playback Composer/Arranger</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Playback Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Sound Engineer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Audio Engineer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Stage Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Lighting Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Live Visuals</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >A/V Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >cool guy 😎</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Systems Administrator</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Tech Infrastructure Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Software Developer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >UI/UX Designer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Storywriter</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Songwriter</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Keyboardist</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Drummer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Guitar Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Professional Guitar Stand</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+          </marquee-text>
+          <marquee-text :duration="600" class="text-[2.5rem] font-semibold">
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Storywriter</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Songwriter</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Keyboardist</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Drummer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Guitar Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Professional Guitar Stand</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Producer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Production Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Playback Composer/Arranger</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Playback Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Sound Engineer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Audio Engineer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Stage Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Lighting Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Live Visuals</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >A/V Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >cool guy 😎</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Systems Administrator</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Tech Infrastructure Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Software Developer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >UI/UX Designer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+          </marquee-text>
+          <marquee-text
+            :duration="600"
+            :reverse="true"
+            class="text-[2.5rem] font-semibold"
+          >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Professional Guitar Stand</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Producer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Production Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Playback Composer/Arranger</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            ><span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Playback Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Sound Engineer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Audio Engineer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Stage Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Lighting Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Live Visuals</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >A/V Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >cool guy 😎</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Systems Administrator</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Tech Infrastructure Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Software Developer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >UI/UX Designer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Storywriter</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Songwriter</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Keyboardist</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Drummer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Guitar Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+          </marquee-text>
+          <marquee-text :duration="600" class="text-[2.5rem] font-semibold">
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >cool guy 😎</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Systems Administrator</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Tech Infrastructure Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Software Developer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >UI/UX Designer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Storywriter</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Songwriter</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Keyboardist</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Drummer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Guitar Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Professional Guitar Stand</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Producer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Production Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Playback Composer/Arranger</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Playback Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Sound Engineer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Audio Engineer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Stage Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Lighting Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Live Visuals</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >A/V Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+          </marquee-text>
+          <marquee-text
+            :duration="600"
+            :reverse="true"
+            class="text-[2.5rem] font-semibold"
+          >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Keyboardist</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Drummer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Guitar Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Professional Guitar Stand</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Producer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Production Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Playback Composer/Arranger</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Playback Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Sound Engineer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Audio Engineer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Stage Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Lighting Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Live Visuals</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >A/V Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >cool guy 😎</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Systems Administrator</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Tech Infrastructure Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Software Developer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >UI/UX Designer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Storywriter</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Songwriter</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+          </marquee-text>
+          <marquee-text :duration="600" class="text-[2.5rem] font-semibold">
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Playback Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Sound Engineer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Audio Engineer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Stage Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Lighting Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Live Visuals</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >A/V Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >cool guy 😎</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Systems Administrator</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Tech Infrastructure Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Software Developer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >UI/UX Designer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Storywriter</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Songwriter</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Keyboardist</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Drummer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Guitar Technician</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Professional Guitar Stand</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Producer</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Production Manager</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+            <span
+              class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
+              >Playback Composer/Arranger</span
+            >
+            <span
+              class="mx-4 opacity-60 cursor-default selection:bg-transparent"
+              >&bull;</span
+            >
+          </marquee-text>
+        </div>
+        <div
+          class="absolute z-10 top-0 w-full h-full bg-gradient-to-b from-neutral-100 dark:from-neutral-950 to-transparent dark:to-transparent pointer-events-none"
+        ></div>
+        <div
+          class="absolute z-10 bottom-0 w-full h-full bg-gradient-to-t from-neutral-100 dark:from-neutral-950 to-transparent dark:to-transparent pointer-events-none"
+        ></div>
+        <div
+          class="absolute z-10 top-0 left-0 w-[4rem] h-full bg-gradient-to-r from-neutral-100 dark:from-neutral-950 to-transparent dark:to-transparent pointer-events-none"
+        ></div>
+        <div
+          class="absolute z-10 top-0 right-0 w-[4rem] h-full bg-gradient-to-l from-neutral-100 dark:from-neutral-950 to-transparent dark:to-transparent pointer-events-none"
+        ></div>
+        <div
+          v-motion-slide-visible-once-bottom
+          :delay="1000"
+          class="absolute z-30 left-auto right-auto w-full bottom-0"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="24"
+            viewBox="0 0 384 512"
+            class="mx-auto mt-12 md:mt-32 animate-bounce-b opacity-50"
+          >
+            <path
+              fill="currentColor"
+              d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8V64c0-17.7-14.3-32-32-32s-32 14.3-32 32v306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
             />
-          </div>
-          <div
-            v-motion-fade-visible-once
-            :delay="750"
-            :duration="500"
-            class="relative h-full opacity-50 pt-4"
-          >
-            <marquee-text :duration="600" class="text-[2.5rem] font-semibold">
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >cool guy 😎</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Systems Administrator</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Tech Infrastructure Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Software Developer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >UI/UX Designer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Storywriter</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Songwriter</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Keyboardist</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Drummer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Guitar Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Professional Guitar Stand</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Producer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Production Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Playback Composer/Arranger</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Playback Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Sound Engineer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Audio Engineer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Stage Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Lighting Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Live Visuals</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >A/V Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-            </marquee-text>
-            <marquee-text
-              :duration="600"
-              :reverse="true"
-              class="text-[2.5rem] font-semibold"
-            >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Keyboardist</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Drummer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Guitar Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Professional Guitar Stand</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Producer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Production Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Playback Composer/Arranger</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Playback Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Sound Engineer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Audio Engineer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Stage Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Lighting Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Live Visuals</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >A/V Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >cool guy 😎</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Systems Administrator</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Tech Infrastructure Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Software Developer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >UI/UX Designer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Storywriter</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Songwriter</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-            </marquee-text>
-            <marquee-text :duration="600" class="text-[2.5rem] font-semibold">
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Playback Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Sound Engineer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Audio Engineer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Stage Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Lighting Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Live Visuals</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >A/V Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >cool guy 😎</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Systems Administrator</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Tech Infrastructure Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Software Developer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >UI/UX Designer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Storywriter</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Songwriter</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Keyboardist</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Drummer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Guitar Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Professional Guitar Stand</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Producer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Production Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Playback Composer/Arranger</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-            </marquee-text>
-            <marquee-text
-              :duration="600"
-              :reverse="true"
-              class="text-[2.5rem] font-semibold"
-            >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Producer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Production Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Playback Composer/Arranger</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Playback Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Sound Engineer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Audio Engineer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Stage Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Lighting Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Live Visuals</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >A/V Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >cool guy 😎</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Systems Administrator</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Tech Infrastructure Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Software Developer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >UI/UX Designer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Storywriter</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Songwriter</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Keyboardist</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Drummer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Guitar Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Professional Guitar Stand</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-            </marquee-text>
-            <marquee-text :duration="600" class="text-[2.5rem] font-semibold">
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Storywriter</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Songwriter</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Keyboardist</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Drummer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Guitar Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Professional Guitar Stand</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Producer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Production Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Playback Composer/Arranger</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Playback Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Sound Engineer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Audio Engineer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Stage Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Lighting Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Live Visuals</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >A/V Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >cool guy 😎</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Systems Administrator</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Tech Infrastructure Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Software Developer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >UI/UX Designer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-            </marquee-text>
-            <marquee-text
-              :duration="600"
-              :reverse="true"
-              class="text-[2.5rem] font-semibold"
-            >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Professional Guitar Stand</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Producer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Production Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Playback Composer/Arranger</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              ><span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Playback Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Sound Engineer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Audio Engineer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Stage Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Lighting Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Live Visuals</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >A/V Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >cool guy 😎</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Systems Administrator</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Tech Infrastructure Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Software Developer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >UI/UX Designer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Storywriter</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Songwriter</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Keyboardist</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Drummer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Guitar Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-            </marquee-text>
-            <marquee-text :duration="600" class="text-[2.5rem] font-semibold">
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >cool guy 😎</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Systems Administrator</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Tech Infrastructure Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Software Developer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >UI/UX Designer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Storywriter</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Songwriter</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Keyboardist</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Drummer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Guitar Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Professional Guitar Stand</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Producer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Production Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Playback Composer/Arranger</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Playback Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Sound Engineer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Audio Engineer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Stage Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Lighting Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Live Visuals</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >A/V Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-            </marquee-text>
-            <marquee-text
-              :duration="600"
-              :reverse="true"
-              class="text-[2.5rem] font-semibold"
-            >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Keyboardist</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Drummer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Guitar Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Professional Guitar Stand</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Producer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Production Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Playback Composer/Arranger</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Playback Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Sound Engineer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Audio Engineer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Stage Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Lighting Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Live Visuals</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >A/V Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >cool guy 😎</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Systems Administrator</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Tech Infrastructure Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Software Developer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >UI/UX Designer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Storywriter</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Songwriter</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-            </marquee-text>
-            <marquee-text :duration="600" class="text-[2.5rem] font-semibold">
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Playback Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Sound Engineer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Audio Engineer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Stage Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Lighting Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Live Visuals</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >A/V Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >cool guy 😎</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Systems Administrator</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Tech Infrastructure Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Software Developer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >UI/UX Designer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Storywriter</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Songwriter</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Keyboardist</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Drummer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Guitar Technician</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Professional Guitar Stand</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Producer</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Production Manager</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-              <span
-                class="hover:opacity-100 opacity-60 cursor-default selection:bg-transparent"
-                >Playback Composer/Arranger</span
-              >
-              <span
-                class="mx-4 opacity-60 cursor-default selection:bg-transparent"
-                >&bull;</span
-              >
-            </marquee-text>
-          </div>
-          <div
-            class="absolute z-10 top-0 w-full h-full bg-gradient-to-b from-neutral-100 dark:from-neutral-950 to-transparent dark:to-transparent pointer-events-none"
-          ></div>
-          <div
-            class="absolute z-10 bottom-0 w-full h-full bg-gradient-to-t from-neutral-100 dark:from-neutral-950 to-transparent dark:to-transparent pointer-events-none"
-          ></div>
-          <div
-            class="absolute z-10 top-0 left-0 w-[4rem] h-full bg-gradient-to-r from-neutral-100 dark:from-neutral-950 to-transparent dark:to-transparent pointer-events-none"
-          ></div>
-          <div
-            class="absolute z-10 top-0 right-0 w-[4rem] h-full bg-gradient-to-l from-neutral-100 dark:from-neutral-950 to-transparent dark:to-transparent pointer-events-none"
-          ></div>
-          <div
-            v-motion-slide-visible-once-bottom
-            :delay="1000"
-            class="absolute z-30 left-auto right-auto w-full"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="18"
-              height="24"
-              viewBox="0 0 384 512"
-              class="mx-auto mt-12 md:mt-32 animate-bounce-b opacity-50"
-            >
-              <path
-                fill="currentColor"
-                d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8V64c0-17.7-14.3-32-32-32s-32 14.3-32 32v306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
-              />
-            </svg>
-          </div>
+          </svg>
         </div>
       </div>
     </div>
