@@ -706,10 +706,6 @@
                 />
                 <div class="flex gap-x-2 overflow-x-scroll">
                   <img
-                    src="../../assets/portfolio/music/11/IMG_7253.jpeg"
-                    class="h-24"
-                  />
-                  <img
                     src="../../assets/portfolio/music/11/IMG_7274.jpeg"
                     class="h-24"
                   />
@@ -822,6 +818,85 @@
               <span
                 class="underline text-pretty group-hover:decoration-blue-500"
                 >SDH Daan Mogot</span
+              >
+            </a>
+          </div>
+          <hr class="rounded-full opacity-50" />
+        </div>
+        <div
+          class="gap-y-8 flex flex-col"
+          v-motion-fade-visible-once
+          :duration="100"
+        >
+          <div class="relative" style="height: 28rem">
+            <div
+              class="absolute top-auto bottom-auto left-auto right-auto w-full h-full flex flex-col justify-center"
+            >
+              <h1
+                class="text-center text-4xl sm:text-5xl md:text-6xl font-semibold cursor-default"
+              >
+                "Harmony In a Bowl Of Bakmie"
+              </h1>
+              <h1
+                class="text-center text-3xl sm:text-4xl md:text-5xl font-semibold opacity-75 mt-2 cursor-default"
+              >
+                Musical Drama
+              </h1>
+
+              <div class="flex justify-center mt-8 gap-x-2 relative">
+                <div
+                  class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
+                />
+                <div
+                  class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
+                />
+                <div class="flex gap-x-2 overflow-x-scroll">
+                  <img
+                    src="../../assets/portfolio/music/13/36468C81-F0ED-40E4-A32E-8AE058608BE6.jpg"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/13/e758e80b-9595-4887-84c6-64f6214f88b4.jpg"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/13/IMG_0086.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/13/IMG_0102.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/13/IMG_9686.png"
+                    class="h-24"
+                  />
+                  <img
+                    src="../../assets/portfolio/music/13/PINV5587.jpg"
+                    class="h-24"
+                  />
+                </div>
+              </div>
+            </div>
+            <p class="absolute top-0 left-0 text-left cursor-default">13</p>
+            <p
+              class="absolute text-pretty bottom-0 md:left-48 left-0 text-left cursor-default"
+            >
+              📆 08 August 2024
+            </p>
+            <p
+              class="absolute top-0 md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default text-pretty"
+            >
+              ✌🏼 Audio + Playback Engineer
+            </p>
+            <a
+              href="https://maps.app.goo.gl/EPxbGJkCZK8qbDs4A"
+              class="absolute bottom-0 right-0 text-right group"
+            >
+              📍
+              <span
+                class="underline text-pretty group-hover:decoration-blue-500"
+                >Gedung Kesenian Jakarta</span
               >
             </a>
           </div>
