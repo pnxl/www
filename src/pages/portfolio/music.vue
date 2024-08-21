@@ -49,22 +49,24 @@
                 <div
                   class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <div class="flex gap-x-2 overflow-x-scroll">
+                <div
+                  class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
+                >
                   <img
                     src="../../assets/portfolio/music/01/20200221_085204.00_02_05_29.Still006.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/01/20200221_085204.00_00_00_00.Still001.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/01/20200221_085204.00_01_46_28.Still005.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/01/20200221_085204.00_00_24_11.Still002.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                 </div>
               </div>
@@ -119,22 +121,24 @@
                 <div
                   class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <div class="flex gap-x-2 overflow-x-scroll">
+                <div
+                  class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
+                >
                   <img
                     src="../../assets/portfolio/music/02/Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_00_11_00.Still008.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/02/Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_02_53_29.Still011.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/02/Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_03_40_06.Still012.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/02/Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_03_53_15.Still013.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                 </div>
               </div>
@@ -186,22 +190,24 @@
                 <div
                   class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <div class="flex gap-x-2 overflow-x-scroll">
+                <div
+                  class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
+                >
                   <img
                     src="../../assets/portfolio/music/03/Final Render (Downscaled30fps).mp4.00_00_10_28.Still014.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/03/Final Render (Downscaled30fps).mp4.00_00_46_11.Still015.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/03/Final Render (Downscaled30fps).mp4.00_01_56_22.Still016.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/03/Final Render (Downscaled30fps).mp4.00_03_24_19.Still017.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                 </div>
               </div>
@@ -248,26 +254,28 @@
                 <div
                   class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <div class="flex gap-x-2 overflow-x-scroll">
+                <div
+                  class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
+                >
                   <img
                     src="../../assets/portfolio/music/04/IMG_20221027_144457.jpg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/04/IMG_20221027_141609.jpg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/04/WhatsApp Image 2022-11-15 at 15.50.39 (2).jpeg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/04/IMG_20221027_172346.jpg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/04/40729.jpg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                 </div>
               </div>
@@ -323,22 +331,24 @@
                 <div
                   class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <div class="flex gap-x-2 overflow-x-scroll">
+                <div
+                  class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
+                >
                   <img
                     src="../../assets/portfolio/music/05/DSC08448.jpg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/05/DSC08451.jpg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/05/DSC08456.jpg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/05/DSC08463.jpg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                 </div>
               </div>
@@ -389,18 +399,20 @@
                 <div
                   class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <div class="flex gap-x-2 overflow-x-scroll">
+                <div
+                  class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
+                >
                   <img
                     src="../../assets/portfolio/music/06/IMG_3605.jpg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/06/IMG_3608.jpg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/06/IMG_3814.jpg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                 </div>
               </div>
@@ -451,10 +463,12 @@
                 <div
                   class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <div class="flex gap-x-2 overflow-x-scroll">
+                <div
+                  class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
+                >
                   <img
                     src="../../assets/portfolio/music/07/Screenshot_2023-05-29_at_22.02.33.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                 </div>
               </div>
@@ -499,10 +513,12 @@
                 <div
                   class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <div class="flex gap-x-2 overflow-x-scroll">
+                <div
+                  class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
+                >
                   <img
                     src="../../assets/portfolio/music/08/header.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                 </div>
               </div>
@@ -558,26 +574,28 @@
                 <div
                   class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <div class="flex gap-x-2 overflow-x-scroll">
+                <div
+                  class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
+                >
                   <img
                     src="../../assets/portfolio/music/09/023f50bd-a28e-4251-a193-e96b15dd9292.jpg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/09/c01ba67c-29e4-40d5-a445-6a0ceef786a5.jpg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/09/D7A9DB1B-D11F-4E0E-B0A5-DDDEB885D80D.jpg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/09/header.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/09/IMG-20231023-WA0040.jpg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                 </div>
               </div>
@@ -633,22 +651,24 @@
                 <div
                   class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <div class="flex gap-x-2 overflow-x-scroll">
+                <div
+                  class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
+                >
                   <img
                     src="../../assets/portfolio/music/10/20231202_175811.mp4.00_00_33_04.Still020.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/10/IMG_6385.jpeg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/10/IMG_6386.MOV.00_00_03_25.Still018.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/10/IMG_6387.jpeg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                 </div>
               </div>
@@ -704,18 +724,20 @@
                 <div
                   class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <div class="flex gap-x-2 overflow-x-scroll">
+                <div
+                  class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
+                >
                   <img
                     src="../../assets/portfolio/music/11/IMG_7274.jpeg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/11/IMG_7280.jpeg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/11/IMG_7286.jpeg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                 </div>
               </div>
@@ -771,30 +793,32 @@
                 <div
                   class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <div class="flex gap-x-2 overflow-x-scroll">
+                <div
+                  class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
+                >
                   <img
                     src="../../assets/portfolio/music/12/4aea5e4411194553b08d136e47ff5737.00_00_00_00.Still001.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/12/4aea5e4411194553b08d136e47ff5737.00_00_06_07.Still002.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/12/4aea5e4411194553b08d136e47ff5737.00_00_15_11.Still003.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/12/4aea5e4411194553b08d136e47ff5737.00_00_24_18.Still004.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/12/56682731-5d00-4e3a-ad6a-d91343e6d9cf.jpg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4 hover:shadow-2xl shadow-red-500"
                   />
                   <img
                     src="../../assets/portfolio/music/12/IMG_8710.jpeg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                 </div>
               </div>
@@ -850,30 +874,32 @@
                 <div
                   class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <div class="flex gap-x-2 overflow-x-scroll">
+                <div
+                  class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
+                >
                   <img
                     src="../../assets/portfolio/music/13/36468C81-F0ED-40E4-A32E-8AE058608BE6.jpg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/13/e758e80b-9595-4887-84c6-64f6214f88b4.jpg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/13/IMG_0086.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/13/IMG_0102.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/13/IMG_9686.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/music/13/PINV5587.jpg"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                 </div>
               </div>
