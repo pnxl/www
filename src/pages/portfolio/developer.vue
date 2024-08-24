@@ -109,22 +109,24 @@
                 <div
                   class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <div class="flex gap-x-2 overflow-x-scroll">
+                <div
+                  class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
+                >
                   <img
                     src="../../assets/portfolio/developer/02/Screenshot 2024-06-03 at 18.09.17.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/developer/02/Screenshot 2024-06-03 at 18.14.06.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/developer/02/Screenshot 2024-06-03 at 18.14.09.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/developer/02/Screenshot 2024-06-03 at 18.17.16.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                 </div>
               </div>
@@ -189,14 +191,16 @@
                 <div
                   class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <div class="flex gap-x-2 overflow-x-scroll">
+                <div
+                  class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
+                >
                   <img
                     src="../../assets/portfolio/developer/03/Screenshot 2024-06-03 at 18.21.17.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/developer/03/Screenshot 2024-06-03 at 18.21.29.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                 </div>
               </div>
@@ -261,10 +265,12 @@
                 <div
                   class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <div class="flex gap-x-2 overflow-x-scroll">
+                <div
+                  class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
+                >
                   <img
                     src="../../assets/portfolio/developer/04/Screenshot 2024-06-03 at 18.24.15.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                 </div>
               </div>
@@ -326,26 +332,28 @@
                 <div
                   class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
                 />
-                <div class="flex gap-x-2 overflow-x-scroll">
+                <div
+                  class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
+                >
                   <img
                     src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.25.36.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.26.24.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.26.42.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.27.35.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                   <img
                     src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.27.39.png"
-                    class="h-24"
+                    class="h-24 hover:scale-150 my-auto hover:mx-4"
                   />
                 </div>
               </div>
