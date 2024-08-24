@@ -916,15 +916,3 @@
     </div>
   </main>
 </template>
-
-<script setup lang="ts">
-import MarqueeText from "vue-marquee-text-component";
-// @ts-ignore
-import { VueWriter } from "vue-writer";
-</script>
-
-<style>
-.scroll-snap-container {
-  height: 100vh;
-}
-</style>

@@ -43,23 +43,3 @@
     </h6>
   </main>
 </template>
-
-<script lang="ts">
-import MarqueeText from "vue-marquee-text-component";
-// @ts-ignore
-import { VueWriter } from "vue-writer";
-
-export default {
-  name: "index",
-  components: {
-    MarqueeText,
-    VueWriter,
-  },
-};
-</script>
-
-<style>
-.scroll-snap-container {
-  height: 100vh;
-}
-</style>

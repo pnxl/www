@@ -1640,9 +1640,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.scroll-snap-container {
-  height: 100vh;
-}
-</style>
