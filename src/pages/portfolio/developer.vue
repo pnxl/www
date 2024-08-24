@@ -26,79 +26,33 @@
       </router-link>
     </div>
     <hr :delay="0" :duration="125" class="rounded-full opacity-50 my-0" />
-    <div class="flex flex-col-reverse gap-y-8">
-      <hr :delay="0" :duration="125" class="rounded-full opacity-50 my-0" />
+    <div class="flex flex-col gap-y-8">
       <div
+        v-for="entry in entries"
         class="gap-y-8 flex flex-col"
         v-motion-fade-visible-once
         :duration="100"
       >
-        <div class="relative" style="height: 28rem">
+        <div class="relative" style="height: 32rem">
           <div
             class="absolute top-auto bottom-auto left-auto right-auto w-full h-full flex flex-col justify-center"
           >
             <h1
-              class="text-center text-4xl sm:text-5xl md:text-6xl font-semibold cursor-default"
+              class="text-center mt-10 text-4xl sm:text-5xl md:text-6xl font-semibold cursor-default"
             >
-              Emotional Damage
+              {{ entry.title }}
             </h1>
-            <div class="flex flex-row justify-center">
-              <p
-                class="text-center text-xl sm:text-2xl md:text-3xl font-medium opacity-75 mt-2 cursor-default md:w-2/3"
-              >
-                Opens a random Steven He video at the timestamp he says
-                "Emotional Damage"
-              </p>
-            </div>
-          </div>
-          <p class="absolute top-0 md:left-48 left-0 text-left cursor-default">
-            01
-          </p>
-          <p
-            class="absolute bottom-0 text-pretty left-0 text-left cursor-default"
-          >
-            ✨ Python
-          </p>
-          <p
-            class="absolute top-0 text-pretty right-0 text-right flex flex-col gap-y-1 cursor-default"
-          >
-            ✌🏼 Joke/Satire Script
-          </p>
-          <a
-            href="https://github.com/pnxl/emotionaldamage"
-            class="absolute bottom-0 md:right-48 right-0 text-right group"
-          >
-            🤖
-            <span class="underline text-pretty group-hover:decoration-blue-500"
-              >GitHub Repository</span
+            <h2
+              v-if="entry.description"
+              class="text-center text-xl sm:text-2xl md:text-3xl max-w-[56rem] mx-auto font-medium opacity-75 mt-2 cursor-default"
             >
-          </a>
-        </div>
-      </div>
-      <div
-        class="gap-y-8 flex flex-col"
-        v-motion-fade-visible-once
-        :duration="100"
-      >
-        <div class="relative" style="height: 28rem">
-          <div
-            class="absolute top-auto bottom-auto left-auto right-auto w-full h-full flex flex-col justify-center"
-          >
-            <h1
-              class="text-center text-4xl sm:text-5xl md:text-6xl font-semibold cursor-default"
-            >
-              Pokaimon
-            </h1>
-            <div class="flex flex-row justify-center">
-              <p
-                class="text-center text-xl sm:text-2xl md:text-3xl font-medium opacity-75 mt-2 cursor-default md:w-2/3"
-              >
-                Genshin Impact themed collectible game with mechanics similar to
-                Pokémon.
-              </p>
-            </div>
+              {{ entry.description }}
+            </h2>
 
-            <div class="flex justify-center mt-8 gap-x-2 relative">
+            <div
+              v-if="entry.images"
+              class="flex justify-center mt-8 gap-x-2 relative"
+            >
               <div
                 class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
               />
@@ -109,263 +63,39 @@
                 class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
               >
                 <img
-                  src="../../assets/portfolio/developer/02/Screenshot 2024-06-03 at 18.09.17.png"
-                  class="h-24 hover:scale-150 my-auto hover:mx-4"
-                />
-                <img
-                  src="../../assets/portfolio/developer/02/Screenshot 2024-06-03 at 18.14.06.png"
-                  class="h-24 hover:scale-150 my-auto hover:mx-4"
-                />
-                <img
-                  src="../../assets/portfolio/developer/02/Screenshot 2024-06-03 at 18.14.09.png"
-                  class="h-24 hover:scale-150 my-auto hover:mx-4"
-                />
-                <img
-                  src="../../assets/portfolio/developer/02/Screenshot 2024-06-03 at 18.17.16.png"
+                  v-for="image in entry.images"
+                  :src="`/portfolio/developer/${entry.index}/${image.file}`"
+                  :alt="image.alt"
                   class="h-24 hover:scale-150 my-auto hover:mx-4"
                 />
               </div>
             </div>
           </div>
-          <p class="absolute top-0 md:left-48 left-0 text-left cursor-default">
-            02
+          <p class="absolute bottom-0 left-0 text-left cursor-default">
+            {{ String(entry.index).padStart(2, "0") }}
           </p>
           <p
-            class="absolute bottom-0 text-pretty left-0 text-left cursor-default"
+            class="absolute top-0 text-pretty md:left-48 left-0 text-left cursor-default"
           >
-            ✨ Vue, TypeScript, Supabase<span class="hidden md:inline-block"
-              >, Tailwind CSS, Headless UI</span
-            >
+            ✨ {{ entry.languages.join(", ") }}
           </p>
           <p
-            class="absolute top-0 text-pretty right-0 text-right flex flex-col gap-y-1 cursor-default"
+            class="absolute bottom-0 text-pretty md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default"
           >
-            ✌🏼 Utility
+            ✌🏼 {{ entry.role }}
           </p>
           <a
-            href="https://pokaimon.cattolabs.com"
-            class="absolute bottom-0 md:right-48 right-0 text-right group"
+            :href="entry.link.url"
+            class="absolute top-0 right-0 text-right group cursor-default"
           >
-            🌏
-            <span class="underline text-pretty group-hover:decoration-blue-500"
-              >Website</span
-            >
-          </a>
-        </div>
-        <hr :delay="0" :duration="125" class="rounded-full opacity-50 my-0" />
-      </div>
-      <div
-        class="gap-y-8 flex flex-col"
-        v-motion-fade-visible-once
-        :duration="100"
-      >
-        <div class="relative" style="height: 28rem">
-          <div
-            class="absolute top-auto bottom-auto left-auto right-auto w-full h-full flex flex-col justify-center"
-          >
-            <h1
-              class="text-center text-4xl sm:text-5xl md:text-6xl font-semibold cursor-default"
-            >
-              catto drive
-            </h1>
-            <div class="flex flex-row justify-center">
-              <p
-                class="text-center text-xl sm:text-2xl md:text-3xl font-medium opacity-75 mt-2 cursor-default md:w-2/3"
-              >
-                A versatile file-sharing platform inspired by Google Drive and
-                WeTransfer.
-              </p>
-            </div>
-
-            <div class="flex justify-center mt-8 gap-x-2 relative">
-              <div
-                class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
-              />
-              <div
-                class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
-              />
-              <div
-                class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
-              >
-                <img
-                  src="../../assets/portfolio/developer/03/Screenshot 2024-06-03 at 18.21.17.png"
-                  class="h-24 hover:scale-150 my-auto hover:mx-4"
-                />
-                <img
-                  src="../../assets/portfolio/developer/03/Screenshot 2024-06-03 at 18.21.29.png"
-                  class="h-24 hover:scale-150 my-auto hover:mx-4"
-                />
-              </div>
-            </div>
-          </div>
-          <p class="absolute top-0 md:left-48 left-0 text-left cursor-default">
-            03
-          </p>
-          <p
-            class="absolute bottom-0 text-pretty left-0 text-left cursor-default"
-          >
-            ✨ SolidJS, TypeScript, Supabase<span class="hidden md:inline-block"
-              >, Uno CSS</span
-            >
-          </p>
-          <p
-            class="absolute top-0 text-pretty right-0 text-right flex flex-col gap-y-1 cursor-default"
-          >
-            ✌🏼 Utility
-          </p>
-          <a
-            href="https://drive.cattolabs.com"
-            class="absolute bottom-0 md:right-48 right-0 text-right group"
-          >
-            🌏
-            <span class="underline text-pretty group-hover:decoration-blue-500"
-              >Website</span
-            >
-          </a>
-        </div>
-        <hr :delay="0" :duration="125" class="rounded-full opacity-50 my-0" />
-      </div>
-      <div
-        class="gap-y-8 flex flex-col"
-        v-motion-fade-visible-once
-        :duration="100"
-      >
-        <div class="relative" style="height: 28rem">
-          <div
-            class="absolute top-auto bottom-auto left-auto right-auto w-full h-full flex flex-col justify-center"
-          >
-            <h1
-              class="text-center text-4xl sm:text-5xl md:text-6xl font-semibold cursor-default"
-            >
-              MIDI Message Reader
-            </h1>
-            <div class="flex flex-row justify-center">
-              <p
-                class="text-center text-xl sm:text-2xl md:text-3xl font-medium opacity-75 mt-2 cursor-default md:w-2/3"
-              >
-                Translates MIDI hexadecimals into human readable text.
-              </p>
-            </div>
-
-            <div class="flex justify-center mt-8 gap-x-2 relative">
-              <div
-                class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
-              />
-              <div
-                class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
-              />
-              <div
-                class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
-              >
-                <img
-                  src="../../assets/portfolio/developer/04/Screenshot 2024-06-03 at 18.24.15.png"
-                  class="h-24 hover:scale-150 my-auto hover:mx-4"
-                />
-              </div>
-            </div>
-          </div>
-          <p class="absolute top-0 md:left-48 left-0 text-left cursor-default">
-            04
-          </p>
-          <p
-            class="absolute bottom-0 text-pretty left-0 text-left cursor-default"
-          >
-            ✨ Vue, TypeScript
-          </p>
-          <p
-            class="absolute top-0 text-pretty right-0 text-right flex flex-col gap-y-1 cursor-default"
-          >
-            ✌🏼 Utility
-          </p>
-          <a
-            href="https://midi.pnxl.dev"
-            class="absolute bottom-0 md:right-48 right-0 text-right group"
-          >
-            🌏
-            <span class="underline text-pretty group-hover:decoration-blue-500"
-              >Website</span
-            >
-          </a>
-        </div>
-        <hr :delay="0" :duration="125" class="rounded-full opacity-50 my-0" />
-      </div>
-      <div
-        class="gap-y-8 flex flex-col"
-        v-motion-fade-visible-once
-        :duration="100"
-      >
-        <div class="relative" style="height: 28rem">
-          <div
-            class="absolute top-auto bottom-auto left-auto right-auto w-full h-full flex flex-col justify-center"
-          >
-            <h1
-              class="text-center text-4xl sm:text-5xl md:text-6xl font-semibold cursor-default"
-            >
-              Handel
-            </h1>
-            <div class="flex flex-row justify-center">
-              <p
-                class="text-center text-xl sm:text-2xl md:text-3xl font-medium opacity-75 mt-2 cursor-default md:w-2/3"
-              >
-                Web-based point-of-sale system for people running small,
-                temporary businesses - such as garage sales and pop-up shops.
-              </p>
-            </div>
-            <div class="flex justify-center mt-8 gap-x-2 relative">
-              <div
-                class="absolute w-8 bg-gradient-to-r left-0 top-0 z-10 h-full from-neutral-950 to-transparent"
-              />
-              <div
-                class="absolute w-8 bg-gradient-to-l right-0 top-0 z-10 h-full from-neutral-950 to-transparent"
-              />
-              <div
-                class="flex gap-x-2 overflow-x-scroll w-full justify-center h-48"
-              >
-                <img
-                  src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.25.36.png"
-                  class="h-24 hover:scale-150 my-auto hover:mx-4"
-                />
-                <img
-                  src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.26.24.png"
-                  class="h-24 hover:scale-150 my-auto hover:mx-4"
-                />
-                <img
-                  src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.26.42.png"
-                  class="h-24 hover:scale-150 my-auto hover:mx-4"
-                />
-                <img
-                  src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.27.35.png"
-                  class="h-24 hover:scale-150 my-auto hover:mx-4"
-                />
-                <img
-                  src="../../assets/portfolio/developer/05/Screenshot 2024-06-03 at 18.27.39.png"
-                  class="h-24 hover:scale-150 my-auto hover:mx-4"
-                />
-              </div>
-            </div>
-          </div>
-          <p class="absolute top-0 md:left-48 left-0 text-left cursor-default">
-            05
-          </p>
-          <p
-            class="absolute bottom-0 text-pretty left-0 text-left cursor-default"
-          >
-            ✨ Vue, TypeScript, Supabase<span class="hidden md:inline-block"
-              >, Tailwind CSS, Headless UI</span
-            >
-          </p>
-          <p
-            class="absolute top-0 text-pretty right-0 text-right flex flex-col gap-y-1 cursor-default"
-          >
-            ✌🏼 Point-of-sale, Utility
-          </p>
-          <a
-            href="https://handel.pnxl.dev"
-            class="absolute bottom-0 md:right-48 right-0 text-right group"
-          >
-            🌏
-            <span class="underline text-pretty group-hover:decoration-blue-500"
-              >Website</span
+            🌐
+            <span
+              :class="
+                (entry.link.url
+                  ? 'group-hover:decoration-blue-500 underline cursor-pointer'
+                  : 'cursor-default') + ' text-pretty '
+              "
+              >{{ entry.link.name }}</span
             >
           </a>
         </div>
@@ -374,3 +104,161 @@
     </div>
   </main>
 </template>
+
+<script setup lang="ts">
+export type Entries = Entry[];
+export interface Entry {
+  index: number;
+  title: string;
+  description?: string;
+  images?: EntryImage[];
+  role: string;
+  languages: string[];
+  link: EntryLink;
+}
+export interface EntryImage {
+  file: string;
+  alt: string;
+}
+export interface EntryLink {
+  name: string;
+  url?: string;
+}
+
+/* {
+    index: 0,
+    title: "Title",
+    description: "Description",
+    images: [
+      {
+        file: "File",
+        alt: "Description",
+      },
+    ],
+    role: "Role",
+    languages: ["Language"],
+    link: {
+      name: "Website",
+      url: "URL"
+    },
+  },
+*/
+
+const entries: Entries = [
+  {
+    index: 5,
+    title: "Handel",
+    description:
+      "Web-based point-of-sale system for people running small, temporary businesses - such as garage sales and pop-up shops.",
+    images: [
+      {
+        file: "Screenshot 2024-06-03 at 18.25.36.png",
+        alt: "Website homepage",
+      },
+      {
+        file: "Screenshot 2024-06-03 at 18.26.24.png",
+        alt: "The main screen",
+      },
+      {
+        file: "Screenshot 2024-06-03 at 18.26.42.png",
+        alt: "Order summary",
+      },
+      {
+        file: "Screenshot 2024-06-03 at 18.27.35.png",
+        alt: "Current order tracking",
+      },
+      {
+        file: "Screenshot 2024-06-03 at 18.27.39.png",
+        alt: "Kitchen screen UI",
+      },
+    ],
+    role: "Point-of-sale, Utility",
+    languages: ["Vue", "TypeScript", "Supabase", "Tailwind CSS"],
+    link: {
+      name: "Website",
+      url: "https://handel.pnxl.dev/",
+    },
+  },
+  {
+    index: 4,
+    title: "MIDI Message Reader",
+    description: "Translates MIDI hexadecimals into human readable text.",
+    images: [
+      {
+        file: "Screenshot 2024-06-03 at 18.24.15.png",
+        alt: "The utility",
+      },
+    ],
+    role: "Utility",
+    languages: ["Vue", "TypeScript"],
+    link: {
+      name: "Website",
+      url: "https://midi-message-reader.pnxl.dev/",
+    },
+  },
+  {
+    index: 3,
+    title: "catto drive",
+    description:
+      "A versatile file-sharing platform inspired by Google Drive and WeTransfer.",
+    images: [
+      {
+        file: "Screenshot 2024-06-03 at 18.21.17.png",
+        alt: "Main landing page",
+      },
+      {
+        file: "Screenshot 2024-06-03 at 18.21.29.png",
+        alt: "Login page",
+      },
+    ],
+    role: "Utility",
+    languages: ["SolidJS", "TypeScript", "Supabase", "Uno CSS"],
+    link: {
+      name: "Website",
+      url: "https://drive.cattolabs.com/",
+    },
+  },
+  {
+    index: 2,
+    title: "Pokaimon",
+    description:
+      "Genshin Impact themed collectible game with mechanics similar to Pokémon.",
+    images: [
+      {
+        file: "Screenshot 2024-06-03 at 18.09.17.png",
+        alt: "Main game interface",
+      },
+      {
+        file: "Screenshot 2024-06-03 at 18.14.06.png",
+        alt: "Game's character shop",
+      },
+      {
+        file: "Screenshot 2024-06-03 at 18.14.09.png",
+        alt: "User's profile interface",
+      },
+      {
+        file: "Screenshot 2024-06-03 at 18.17.16.png",
+        alt: "Game fighting interface",
+      },
+    ],
+    role: "Game",
+    languages: ["Vue", "TypeScript", "Supabase", "Tailwind CSS"],
+    link: {
+      name: "Website",
+      url: "https://pokaimon.cattolabs.com/",
+    },
+  },
+  {
+    index: 1,
+    title: "“Emotional Damage”",
+    description:
+      "Opens a random Steven He video at the timestamp he says “Emotional Damage”",
+    role: "Joke/Satire",
+    languages: ["Python"],
+    link: {
+      name: "Git Repository",
+      url: "https://github.com/pnxl/emotionaldamage",
+    },
+  },
+];
+</script>

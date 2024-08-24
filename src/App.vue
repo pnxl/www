@@ -3,9 +3,7 @@
     <Header />
     <div class="overflow-y-scroll h-screen -mb-4 -mr-4 pr-4">
       <router-view v-slot="{ Component }" class="">
-        <transition name="fade" mode="out-in">
-          <component :is="Component" />
-        </transition>
+        <component :is="Component" />
       </router-view>
 
       <Footer />
