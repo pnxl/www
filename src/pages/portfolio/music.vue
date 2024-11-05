@@ -139,6 +139,47 @@ export interface EntryLocation {
 
 const entries: Entries = [
   {
+    index: 14,
+    title: "10.2's First Chapel",
+    description: "Student Chapel Service",
+    images: [
+      {
+        file: "IMG_1265.jpeg",
+        alt: "The class waiting for rehearsal",
+      },
+      {
+        file: "IMG_1262.jpeg",
+        alt: "Me setting up the keys rig for our pianist",
+      },
+      {
+        file: "Untitled 3.jpeg",
+        alt: "Class choir rehearsal",
+      },
+      {
+        file: "DSC06777.jpeg",
+        alt: "Prayer before we have our service",
+      },
+      {
+        file: "DSC06792.jpeg",
+        alt: "Me gain staging all the microphones and instruments",
+      },
+      {
+        file: "DSC06787.jpeg",
+        alt: "Our pianist setting up her keys rig",
+      },
+      {
+        file: "IMG_4668.jpeg",
+        alt: "Our class after the show",
+      },
+    ],
+    role: "Audio + Playback Engineer",
+    date: 1730048400,
+    location: {
+      name: "SDH Daan Mogot",
+      url: "https://maps.app.goo.gl/xCX9uk1jpnGBSmZm9",
+    },
+  },
+  {
     index: 13,
     title: "“Harmony In a Bowl Of Bakmie”",
     description: "Musical Drama",
