@@ -70,7 +70,14 @@
           <p
             class="absolute bottom-0 text-pretty md:left-48 left-0 text-left cursor-default"
           >
-            📆 {{ String(formatDate(entry.date * 1000)) }}
+            📆
+            {{
+              String(
+                typeof entry.date === "number"
+                  ? formatDate(entry.date * 1000)
+                  : entry.date
+              )
+            }}
           </p>
           <p
             class="absolute top-0 text-pretty md:right-48 right-0 text-right flex flex-col gap-y-1 cursor-default"
@@ -106,7 +113,7 @@ export interface Entry {
   description?: string;
   images?: EntryImage[];
   role: string;
-  date: number;
+  date: number | string;
   location: EntryLocation;
 }
 export interface EntryImage {
@@ -138,6 +145,23 @@ export interface EntryLocation {
 */
 
 const entries: Entries = [
+  {
+    index: 15,
+    title: "Student Chapel Services",
+    description: "Various Classes",
+    images: [
+      {
+        file: "WhatsApp Image 2024-11-05 at 10.29.33.jpeg",
+        alt: "10.4's Chapel",
+      },
+    ],
+    role: "Audio Engineer",
+    date: "Nov 2024 - present",
+    location: {
+      name: "SDH Daan Mogot",
+      url: "https://maps.app.goo.gl/xCX9uk1jpnGBSmZm9",
+    },
+  },
   {
     index: 14,
     title: "10.2's First Chapel",
@@ -185,27 +209,27 @@ const entries: Entries = [
     description: "Musical Drama",
     images: [
       {
-        file: "IMG_9686.png",
+        file: "IMG_9686.jpeg",
         alt: "My (first) playback and audio setup during the rehearsal",
       },
       {
-        file: "IMG_0058.jpg",
+        file: "IMG_0058.jpeg",
         alt: "My (second) playback and audio setup during the rehearsal",
       },
       {
-        file: "e758e80b-9595-4887-84c6-64f6214f88b4.jpg",
+        file: "e758e80b-9595-4887-84c6-64f6214f88b4.jpeg",
         alt: "Picture of the comittees after a meeting",
       },
       {
-        file: "IMG_0086.png",
+        file: "IMG_0086.jpeg",
         alt: "Picture of a bag full of Red Bull bought by the stage crew and I",
       },
       {
-        file: "IMG_0102.png",
+        file: "IMG_0102.jpeg",
         alt: "The stage during load in",
       },
       {
-        file: "PINV5587.jpg",
+        file: "PINV5587.jpeg",
         alt: "My playback and audio setup during the show day",
       },
     ],
@@ -222,19 +246,19 @@ const entries: Entries = [
     description: "Music Concert",
     images: [
       {
-        file: "4aea5e4411194553b08d136e47ff5737.00_00_00_00.Still001.png",
+        file: "4aea5e4411194553b08d136e47ff5737.00_00_00_00.Still001.jpeg",
         alt: "Picture of my playback and recording setup",
       },
       {
-        file: "4aea5e4411194553b08d136e47ff5737.00_00_06_07.Still002.png",
+        file: "4aea5e4411194553b08d136e47ff5737.00_00_06_07.Still002.jpeg",
         alt: "Picture of the playback and concert",
       },
       {
-        file: "4aea5e4411194553b08d136e47ff5737.00_00_15_11.Still003.png",
+        file: "4aea5e4411194553b08d136e47ff5737.00_00_15_11.Still003.jpeg",
         alt: "Picture of the playback and concert",
       },
       {
-        file: "56682731-5d00-4e3a-ad6a-d91343e6d9cf.jpg",
+        file: "56682731-5d00-4e3a-ad6a-d91343e6d9cf.jpeg",
         alt: "The whole orchestra after rehearsal",
       },
       {
@@ -259,15 +283,15 @@ const entries: Entries = [
         alt: "Picture with the whole band before the show",
       },
       {
-        file: "d38a6ffe-7a3a-4716-ae31-bf2991385c79.jpg",
+        file: "d38a6ffe-7a3a-4716-ae31-bf2991385c79.jpeg",
         alt: "Picture of the band while performing",
       },
       {
-        file: "451da838-3a65-4606-b57b-6e1175db4032.jpg",
+        file: "451da838-3a65-4606-b57b-6e1175db4032.jpeg",
         alt: "Picture of our guitarist while performing",
       },
       {
-        file: "d084a24c-6867-4ba6-ad0f-0015e882361c.jpg",
+        file: "d084a24c-6867-4ba6-ad0f-0015e882361c.jpeg",
         alt: "Picture of me while performing",
       },
       {
@@ -288,15 +312,15 @@ const entries: Entries = [
     description: "with Sekolah Dian Harapan",
     images: [
       {
-        file: "IMG_6386.MOV.00_00_03_25.Still018.png",
+        file: "IMG_6386.MOV.00_00_03_25.Still018.jpeg",
         alt: "Our drummer acting as a metronome during rehearsal",
       },
       {
-        file: "20231202_175811.mp4.00_00_33_04.Still020.png",
+        file: "20231202_175811.mp4.00_00_33_04.Still020.jpeg",
         alt: "Me infront of my keyboard",
       },
       {
-        file: "20231202_180057.jpg",
+        file: "20231202_180057.jpeg",
         alt: "The string orchestra",
       },
     ],
@@ -313,19 +337,19 @@ const entries: Entries = [
     description: "Blue Feather V",
     images: [
       {
-        file: "023f50bd-a28e-4251-a193-e96b15dd9292.jpg",
+        file: "023f50bd-a28e-4251-a193-e96b15dd9292.jpeg",
         alt: "Selfie with the whole band after rehearsal",
       },
       {
-        file: "c01ba67c-29e4-40d5-a445-6a0ceef786a5.jpg",
+        file: "c01ba67c-29e4-40d5-a445-6a0ceef786a5.jpeg",
         alt: "Picture with the whole band after rehearsal",
       },
       {
-        file: "header.png",
+        file: "header.jpeg",
         alt: "Selfie with the whole band before the show",
       },
       {
-        file: "IMG-20231023-WA0040.jpg",
+        file: "IMG-20231023-WA0040.jpeg",
         alt: "The band during the show",
       },
     ],
@@ -342,11 +366,11 @@ const entries: Entries = [
     description: "Student Chapel Service",
     images: [
       {
-        file: "IMG_4889.jpg",
+        file: "IMG_4889.jpeg",
         alt: "My keyboard, drum and playback rig",
       },
       {
-        file: "header.png",
+        file: "header.jpeg",
         alt: "Picture with the whole 9A class",
       },
     ],
@@ -363,7 +387,7 @@ const entries: Entries = [
     description: "Student Chapel Service",
     images: [
       {
-        file: "Screenshot_2023-05-29_at_22.02.33.png",
+        file: "Screenshot_2023-05-29_at_22.02.33.jpeg",
         alt: "The band and worship leaders during rehearsal",
       },
     ],
@@ -379,15 +403,15 @@ const entries: Entries = [
     description: "Student Chapel Service",
     images: [
       {
-        file: "IMG_3605.jpg",
+        file: "IMG_3605.jpeg",
         alt: "Picture of slides and audio engineer working at front of house",
       },
       {
-        file: "IMG_3608.jpg",
+        file: "IMG_3608.jpeg",
         alt: "The band and worship leaders during rehearsal",
       },
       {
-        file: "IMG_3814.jpg",
+        file: "IMG_3814.jpeg",
         alt: "Picture with the whole 8G class",
       },
     ],
@@ -404,19 +428,19 @@ const entries: Entries = [
     description: "Friendship Day 2022 (DH Look Alike)",
     images: [
       {
-        file: "DSC08448.jpg",
+        file: "DSC08448.jpeg",
         alt: "Moana and Hei-hei",
       },
       {
-        file: "DSC08451.jpg",
+        file: "DSC08451.jpeg",
         alt: "Moana and Maui",
       },
       {
-        file: "DSC08456.jpg",
+        file: "DSC08456.jpeg",
         alt: "Moana and Tamatoa",
       },
       {
-        file: "DSC08463.jpg",
+        file: "DSC08463.jpeg",
         alt: "Closing dance of 'Where You'll Go'",
       },
     ],
@@ -433,15 +457,15 @@ const entries: Entries = [
     description: "Student Chapel Service",
     images: [
       {
-        file: "IMG_20221027_144457.jpg",
+        file: "IMG_20221027_144457.jpeg",
         alt: "Pianist and drummer during rehearsal",
       },
       {
-        file: "IMG_20221027_172346.jpg",
+        file: "IMG_20221027_172346.jpeg",
         alt: "Pianist and drummer during rehearsal",
       },
       {
-        file: "IMG_20221027_141609.jpg",
+        file: "IMG_20221027_141609.jpeg",
         alt: "Worship leaders and singers during rehearsal",
       },
       {
@@ -462,19 +486,19 @@ const entries: Entries = [
     description: "Easter Music Competition",
     images: [
       {
-        file: "Final Render (Downscaled30fps).mp4.00_00_10_28.Still014.png",
+        file: "Final Render (Downscaled30fps).mp4.00_00_10_28.Still014.jpeg",
         alt: "All vocalists singing together",
       },
       {
-        file: "Final Render (Downscaled30fps).mp4.00_00_46_11.Still015.png",
+        file: "Final Render (Downscaled30fps).mp4.00_00_46_11.Still015.jpeg",
         alt: "Vocalists and pianist",
       },
       {
-        file: "Final Render (Downscaled30fps).mp4.00_01_56_22.Still016.png",
+        file: "Final Render (Downscaled30fps).mp4.00_01_56_22.Still016.jpeg",
         alt: "Vocalists and drummer",
       },
       {
-        file: "Final Render (Downscaled30fps).mp4.00_03_24_19.Still017.png",
+        file: "Final Render (Downscaled30fps).mp4.00_03_24_19.Still017.jpeg",
         alt: "Vocalists, launchpad lightshow, and drummer",
       },
     ],
@@ -490,19 +514,19 @@ const entries: Entries = [
     description: "Friendship Day 2021 (Music Cover Competition)",
     images: [
       {
-        file: "Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_00_11_00.Still008.png",
+        file: "Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_00_11_00.Still008.jpeg",
         alt: "Launchpad lightshow and guitar for intro",
       },
       {
-        file: "Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_02_53_29.Still011.png",
+        file: "Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_02_53_29.Still011.jpeg",
         alt: "Launchpad lightshow and vocalist for verse",
       },
       {
-        file: "Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_03_40_06.Still012.png",
+        file: "Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_03_40_06.Still012.jpeg",
         alt: "Launchpad lightshow of the chorus",
       },
       {
-        file: "Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_03_53_15.Still013.png",
+        file: "Dabin - Drown (ft. Mokita) __ Guitar × Launchpad × Acapella × Keyboard Cover.mp4.00_03_53_15.Still013.jpeg",
         alt: "Keyboard for outro",
       },
     ],
@@ -518,19 +542,19 @@ const entries: Entries = [
     description: "I Love Indonesia",
     images: [
       {
-        file: "20200221_085204.00_02_05_29.Still006.png",
+        file: "20200221_085204.00_02_05_29.Still006.jpeg",
         alt: "Picture of the whole performance",
       },
       {
-        file: "20200221_085204.00_00_00_00.Still001.png",
+        file: "20200221_085204.00_00_00_00.Still001.jpeg",
         alt: "Me and my band playing together",
       },
       {
-        file: "20200221_085204.00_01_46_28.Still005.png",
+        file: "20200221_085204.00_01_46_28.Still005.jpeg",
         alt: "Me and my band playing together but with better lighting",
       },
       {
-        file: "20200221_085204.00_00_24_11.Still002.png",
+        file: "20200221_085204.00_00_24_11.Still002.jpeg",
         alt: "Dancers and vocalists on stage",
       },
     ],
