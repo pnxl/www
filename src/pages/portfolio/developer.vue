@@ -152,23 +152,23 @@ const entries: Entries = [
       "Web-based point-of-sale system for people running small, temporary businesses - such as garage sales and pop-up shops.",
     images: [
       {
-        file: "Screenshot 2024-06-03 at 18.25.36.png",
+        file: "Screenshot 2024-06-03 at 18.25.36.jpeg",
         alt: "Website homepage",
       },
       {
-        file: "Screenshot 2024-06-03 at 18.26.24.png",
+        file: "Screenshot 2024-06-03 at 18.26.24.jpeg",
         alt: "The main screen",
       },
       {
-        file: "Screenshot 2024-06-03 at 18.26.42.png",
+        file: "Screenshot 2024-06-03 at 18.26.42.jpeg",
         alt: "Order summary",
       },
       {
-        file: "Screenshot 2024-06-03 at 18.27.35.png",
+        file: "Screenshot 2024-06-03 at 18.27.35.jpeg",
         alt: "Current order tracking",
       },
       {
-        file: "Screenshot 2024-06-03 at 18.27.39.png",
+        file: "Screenshot 2024-06-03 at 18.27.39.jpeg",
         alt: "Kitchen screen UI",
       },
     ],
@@ -185,7 +185,7 @@ const entries: Entries = [
     description: "Translates MIDI hexadecimals into human readable text.",
     images: [
       {
-        file: "Screenshot 2024-06-03 at 18.24.15.png",
+        file: "Screenshot 2024-06-03 at 18.24.15.jpeg",
         alt: "The utility",
       },
     ],
@@ -203,11 +203,11 @@ const entries: Entries = [
       "A versatile file-sharing platform inspired by Google Drive and WeTransfer.",
     images: [
       {
-        file: "Screenshot 2024-06-03 at 18.21.17.png",
+        file: "Screenshot 2024-06-03 at 18.21.17.jpeg",
         alt: "Main landing page",
       },
       {
-        file: "Screenshot 2024-06-03 at 18.21.29.png",
+        file: "Screenshot 2024-06-03 at 18.21.29.jpeg",
         alt: "Login page",
       },
     ],
@@ -225,19 +225,19 @@ const entries: Entries = [
       "Genshin Impact themed collectible game with mechanics similar to Pokémon.",
     images: [
       {
-        file: "Screenshot 2024-06-03 at 18.09.17.png",
+        file: "Screenshot 2024-06-03 at 18.09.17.jpeg",
         alt: "Main game interface",
       },
       {
-        file: "Screenshot 2024-06-03 at 18.14.06.png",
+        file: "Screenshot 2024-06-03 at 18.14.06.jpeg",
         alt: "Game's character shop",
       },
       {
-        file: "Screenshot 2024-06-03 at 18.14.09.png",
+        file: "Screenshot 2024-06-03 at 18.14.09.jpeg",
         alt: "User's profile interface",
       },
       {
-        file: "Screenshot 2024-06-03 at 18.17.16.png",
+        file: "Screenshot 2024-06-03 at 18.17.16.jpeg",
         alt: "Game fighting interface",
       },
     ],
