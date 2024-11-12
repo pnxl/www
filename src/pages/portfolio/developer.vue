@@ -107,6 +107,7 @@
 
 <script setup lang="ts">
 export type Entries = Entry[];
+
 export interface Entry {
   index: number;
   title: string;
@@ -116,10 +117,12 @@ export interface Entry {
   languages: string[];
   link: EntryLink;
 }
+
 export interface EntryImage {
   file: string;
   alt: string;
 }
+
 export interface EntryLink {
   name: string;
   url?: string;
@@ -145,6 +148,40 @@ export interface EntryLink {
 */
 
 const entries: Entries = [
+  {
+    index: 6,
+    title: "Sustainable Catering",
+    description:
+      "Part of a project for Chemistry where we needed to find solutions for pollution.",
+    images: [
+      {
+        file: "Screenshot 2024-11-12 at 07.58.08.jpeg",
+        alt: "Website homepage",
+      },
+      {
+        file: "Screenshot 2024-11-12 at 07.58.16.jpeg",
+        alt: "Section 1",
+      },
+      {
+        file: "Screenshot 2024-11-12 at 07.58.23.jpeg",
+        alt: "Section 2",
+      },
+      {
+        file: "Screenshot 2024-11-12 at 07.58.30.jpeg",
+        alt: "Section 3",
+      },
+      {
+        file: "Screenshot 2024-06-03 at 18.27.39.jpeg",
+        alt: "Kitchen screen UI",
+      },
+    ],
+    role: "Assignment, Movement",
+    languages: ["Remix", "TypeScript", "Tailwind CSS"],
+    link: {
+      name: "Website",
+      url: "https://sustainable-catering.pages.dev/",
+    },
+  },
   {
     index: 5,
     title: "Handel",
