@@ -170,10 +170,6 @@ const entries: Entries = [
         file: "Screenshot 2024-11-12 at 07.58.30.jpeg",
         alt: "Section 3",
       },
-      {
-        file: "Screenshot 2024-06-03 at 18.27.39.jpeg",
-        alt: "Kitchen screen UI",
-      },
     ],
     role: "Assignment, Movement",
     languages: ["Remix", "TypeScript", "Tailwind CSS"],
